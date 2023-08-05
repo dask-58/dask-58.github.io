@@ -34,3 +34,7 @@ a.hlink1{
 a.feet{
     color: lime;
 }
+.fnav{
+    display: flex;
+    justify-content: space-around;
+}
