@@ -8,17 +8,30 @@
         <link rel="icon" type="image/x-icon" href="/assets/images/logo.ico">
     </head>
     <style>
-    .navbar{
-    display: flexbox;
-    justify-content: space-around;
-    font-family: cursive;
-    font-size: x-large;
-    text-align: center;
-        }
-.navbar a{
-    color: lime;
-    margin: 0 10px;
+    ul{
+  position: -webkit-sticky;
+  position: sticky;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 5px solid white;
+  border-radius: 12px;
 }
+li{
+    float: right;
+    border-right: 1px solid #bbb;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a:hover{
+    background-color: gray;
+  }
 a.feet{
     color: lime;
 }
@@ -37,21 +50,22 @@ body{
     color: white;
     font-size: x-large;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .slinks{
     display:list-item
 }
 </style>
 <header>
-    <div class="navbar">
-        <nav>
-            <a href="/index.html">
-            <img src="/assets/images/logoo.jpg" alt="logo/Home" style="height: 50px; width: 50px;"></a>
-            <a href="/about.html">🅰️ About Me</a>
-            <a href="/academics.html">📚 Academics</a>
-            <a href="/contact.html">📞 Contact Me</a>
-        </nav><hr>
+    <nav class="navbar">
+        <ul>
+        <li style="float: left;"><a href="/index.html">
+            <img src="/assets/images/logoo.jpg" height="40px" width="40px"></a></li>
+        <li><a href="/about.html">🅰️ About Me</a></li>
+        <li><a href="/academics.html">📚 Academics</a></li>
+        <li><a href="/contact.html">📞 Contact Me</a></li>
+        </ul>
+    </nav><hr>
 </header>
 <body>
     <div>

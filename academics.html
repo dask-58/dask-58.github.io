@@ -8,16 +8,30 @@
         <link rel="icon" type="image/x-icon" href="/assets/images/logo.ico">
     </head>
     <style>
-    .navbar{
-        display: flexbox;
-        justify-content: space-around;
-        font-family: cursive;
-        font-size: x-large;
-        }
-.navbar a{
-    color: lime;
-    margin: 0 10px;
+     ul{
+  position: -webkit-sticky;
+  position: sticky;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  border: 5px solid white;
+  border-radius: 12px;
 }
+li{
+    float: right;
+    border-right: 1px solid #bbb;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a:hover{
+    background-color: gray;
+  }
 a.feet{
     color: lime;
 }
@@ -33,7 +47,7 @@ body{
     color: white;
     font-size: x-large;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 a.pro1{
     color: lime;
@@ -44,34 +58,29 @@ a.pro1{
 }
 </style>
 <header>
-    <div class="navbar">
-        <nav>
-            <a href="/index.html">
-            <img src="/assets/images/logoo.jpg" alt="logo" style="height: 50px; width: 50px;"></a>
-            <a href="/about.html">🅰️ About Me</a>
-            <a href="/academics.html">📚 Academics</a>
-            <a href="/contact.html">📞 Contact Me</a>
-        </nav><hr>
+    <nav class="navbar">
+        <ul>
+        <li style="float: left;"><a href="/index.html">
+            <img src="/assets/images/logoo.jpg" height="40px" width="40px"></a></li>
+        <li><a href="/about.html">🅰️ About Me</a></li>
+        <li><a href="/academics.html">📚 Academics</a></li>
+        <li><a href="/contact.html">📞 Contact Me</a></li>
+        </ul>
+    </nav><hr>
 </header>
 <body>
     <h2>
         Schooling
     </h2><hr><br>
-    <ul>
-        <li>IIIT Dharwad, Karnataka (Aug 2023-...)</li>
-        <li>HCC Junior College, Solapur (June 2021- Feb 2023)</li>
-        <li>Kendriya Vidyalaya, Solapur (Apr 2011- Feb 2021)</li>
-    </ul><hr><br>
+        IIIT Dharwad, Karnataka (Aug 2023-...)<br><br><br>
+        HCC Junior College, Solapur (June 2021- Feb 2023)<br><br><br>
+        Kendriya Vidyalaya, Solapur (Apr 2011- Feb 2021)
+    </ol><hr><br>
     <div class="Projects">
     <h2>Projects
     </h2><hr><br>
-    <ol>
-        <li>
-            This Webpage, Built with Html and CSS<br>
+            1. This Webpage, Built with Html and CSS<br>
             Here is the <a href="https://github.com/dask-58/dask-58.github.io" class="pro1">Code</a>.
-        </li>
-    </ol>
-    </div>
 </body><br><br><br>
 <div class="footer">
     <footer>
