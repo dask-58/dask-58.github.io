@@ -1,6 +1,11 @@
+.navbar{
+    background-image: url(/assets/images/backgif.webp);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 100;
+}
 ul{
-  position: -webkit-sticky;
-  position: sticky;
   list-style-type: none;
   margin: 0;
   padding: 0;
