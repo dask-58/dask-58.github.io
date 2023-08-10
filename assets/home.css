@@ -35,9 +35,9 @@ body{
     font-size: x-large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
-    background-image: url(/assets/images/homeback.gif);
+    background-image: url(/assets/images/homebackground.svg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-attachment: fixed;
     background-position: center center;
 }
@@ -54,7 +54,4 @@ a.feet{
 .fnav{
     display: flex;
     justify-content: space-around;
-}
-.home{
-    text-shadow: 1px 1px 2px black, 0 0 20px lime, 0 0 5px greenyellow;
 }
