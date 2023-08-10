@@ -1,32 +1,35 @@
+.main-container{
+    overflow: auto;
+}
 .navbar{
-    background-image: url(/assets/images/backgif.webp);
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 100;
+position: sticky;
+position: -webkit-sticky;
+top: 0;
+z-index: 100;
+background-image: url(/assets/images/about.gif);
 }
 ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border: 5px solid white;
-  border-radius: 12px;
+list-style-type: none;
+margin: 0;
+padding: 0px;
+overflow: hidden;
+border: 5px solid white;
+border-radius: 12px;
 }
 li{
-    float: right;
-    border-right: 1px solid #bbb;
+float: right;
+border-right: 1px solid #bbb;
 }
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
 li a:hover{
-    background-color: crimson;
-  }
+background-color: crimson;
+}
 body{
     text-align: center;
     font-size: x-large;
@@ -34,7 +37,7 @@ body{
     color: white;
     background-image: url(/assets/images/homeback.gif);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-attachment: fixed;
     background-position: center center;
 }

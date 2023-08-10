@@ -8,9 +8,17 @@
         <link rel="icon" type="image/x-icon" href="/assets/images/logo.ico">
     </head>
     <style>
+       .main-container{
+            overflow: auto;
+        }
+        .navbar{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 100;
+    background-image: url(/assets/images/about.gif);
+        }
      ul{
-  position: -webkit-sticky;
-  position: sticky;
   list-style-type: none;
   margin: 0;
   padding: 0px;
@@ -57,7 +65,6 @@ a.pro1{
     justify-content: space-around;
 }
 </style>
-<header>
     <nav class="navbar">
         <ul>
         <li style="float: left;"><a href="/index.html">
@@ -67,23 +74,24 @@ a.pro1{
         <li><a href="/contact.html">📞 Contact Me</a></li>
         </ul>
     </nav><hr>
-</header>
-<body>
-    <h2>
-        Schooling
-    </h2><hr><br>
-        IIIT Dharwad, Karnataka (Aug 2023-...)<br><br><br>
-        HCC Junior College, Solapur (June 2021- Feb 2023)<br><br><br>
-        Kendriya Vidyalaya, Solapur (Apr 2011- Feb 2021)
-    </ol><hr><br>
-    <div class="Projects">
-    <h2>Projects
-    </h2><hr><br>
-            1. This Webpage, Built with Html and CSS<br>
-            Here is the <a href="https://github.com/dask-58/dask-58.github.io" class="pro1">Code</a>.
-</body><br><br><br>
-<div class="footer">
-    <footer>
+<div class="main-container">
+    <body>
+        <h2>
+            Schooling
+        </h2><hr><br>
+            IIIT Dharwad, Karnataka (Aug 2023-...)<br><br><br>
+            HCC Junior College, Solapur (June 2021- Feb 2023)<br><br><br>
+            Kendriya Vidyalaya, Solapur (Apr 2011- Feb 2021)
+        </ol><hr><br>
+        <div class="Projects">
+        <h2>Projects
+        </h2><hr><br>
+                1. This Webpage, Built with Html and CSS<br>
+                Here is the <a href="https://github.com/dask-58/dask-58.github.io" class="pro1">Code</a>.
+    </body>
+</div>
+<br><br><br>
+    <footer class="footer">
         <div class="fnav">
             <a href="https://github.com/dask-58">
                 <img src="/assets/images/githublogo.png" height="50px">
@@ -96,5 +104,4 @@ a.pro1{
             </a>
             </div>
     </footer>
-    </div>
 </html>
