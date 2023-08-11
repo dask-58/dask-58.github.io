@@ -1,116 +1,173 @@
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width , initial scale=1">
-        <title>
-            About-DHRUV KOLI
-        </title>
-        <link rel="icon" type="image/x-icon" href="/assets/images/logo.ico">
-    </head>
-    <style>
-        .main-container{
-            overflow: auto;
-        }
-        .navbar{
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 100;
-    background-image: url(/assets/images/backgif.webp);
-}
-        ul{
-         list-style-type: none;
-         margin: 0;
-         padding: 0;
-         overflow: hidden;
-         border: 5px solid white;
-         border-radius: 12px;
-        }
-li{
-    float: right;
-    border-right: 1px solid wheat;
-}
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-li a:hover{
-    background-color: crimson;
-  }
-body{
-    background-image: url(/assets/images/aboutbackground.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;
-    font-size: x-large;
-    text-align: center;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About-Dhruv Koli</title>
+    <link rel="icon" type="image/x-icon" href="/assets/images/logo.ico">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.about{
-    text-shadow: 1px 1px 2px black, 0 0 20px lime, 0 0 5px greenyellow;;
+
+body{
+    background: url(/assets/images/about-background.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: aliceblue;
 }
-a.ablink1{
-    color: lime;
-    font-family: monospace;
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
-a.ablink2{
-    color: lime;
-    font-family: monospace;
+
+.logo{
+    font-size: 36px;
+    color: crimson;
+    font-weight: 600;
+    text-decoration: none;
 }
-a.feet{
-    color: lime;
+
+.navbar a{
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
 }
-footer{
-    box-shadow: 0 0 10px;
+
+.navbar a:hover,
+.navbar a.active{
+    color: crimson;
+}
+
+@media(max-width: 768px){
+    .navbar {
+        flex-direction: column;
+        font-size: 16px;
+        padding: 5px;
+        text-align: center;
+    }
+}
+
+.about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    height: 200vh;
+}
+
+.content-about{
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.fade-in{
+    opacity: 0.2;
+    transition: opacity 1s ease-in-out;
+}
+.fade-in:hover{
+    opacity: 1;
+}
+.sociallinks{
+    display: contents;
+    justify-content: space-between;
+    margin-left: 10px;
+    position: absolute;
+    width: 140px;
+    bottom: 50px;
+    background: transparent;
+}
+
+.sociallinks a{
+    color: white;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    left: 0;
+    margin-right: 20px;
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 24px;
+    transition: .5s;
+}
+
+.sociallinks a:hover{
+    color: rgb(25, 157, 201);
+}
+.footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 20px;
     padding: 20px;
 }
-.fnav{
-    display: flex;
-    justify-content: space-around;
-}
-    </style>
-            <nav class="navbar">
-                <ul>
-                <li style="float: left;"><a href="/index.html">
-                    <img src="/assets/images/logoo.jpg" height="40px" width="40px"></a></li>
-                <li><a href="/about.html">🅰️ About Me</a></li>
-                <li><a href="/academics.html">📚 Academics</a></li>
-                <li><a href="/contact.html">📞 Contact Me</a></li>
-                </ul>
-            </nav><hr>
-        <div class="main-container">
-        <body class="aboutme">
-            <hr><h1 class="about">
-                ABOUT ME
-            </h1><hr>
-                <p>
-                    <i style="color: crimson;">
-                    Student </i> <br><br><br>
-                    I was born in <a href="https://g.co/kgs/FA1zTq" class="ablink1">Vijayapura</a> (Bijapur), Karnataka. On 05/05/05.<br><br><br><br>
-                    and raised in <a href="https://g.co/kgs/CmtAz6" class="ablink2">Solapur</a>, Maharashtra.<br><br><br><br>
-                    I can speak 4 languages:- Kannada, English, Hindi & Marathi.<br><br><br><br>
-                    Interested in Football, Gaming, Cricket and Chess.</h4>
-                    I love talking<br><br>about Football, <br><br> History(esp. Roman & Egyptian) and Civilizations.<br><br><br><br><br><br>
-                    <h5 style="font-family: cursive;">Big Messi, AB de Villiers & Harry Potter Fan🔟</h5>
-                    <hr><br><br>
-                </p>
-        </body>        
+
+</style>
+
+<body>
+    <header class="header">
+        <a href="/index.html" class="logo">
+            Dhruv
+        </a>
+
+        <nav class="navbar">
+            <a href="/index.html">Home</a>
+            <a href="/about.html" class="active">About</a>
+            <a href="/academics.html">Academics</a>
+        </nav>
+    </header>
+    <section class="about-me">
+        <div class="content-about">
+            <h3>
+                Student💻
+            </h3><br><br>
+            <p class="fade-in">
+                I was born in <a href="https://g.co/kgs/CsfNZP" style="color: lime; text-decoration: none; font-family: monospace;">Vijayapura</a>,<br>
+                and raised in <a href="https://g.co/kgs/E4anKo" style="color: lime; text-decoration: none; font-family: monospace;">Solapur</a>.<br>
+                <br>
+                I love talking about Football⚽️, Cricket🏏, Video Games🎮<br>
+                and medieval civilizations 🏰.<br><br>
+                Huge Messi, De Villiers and Harry Potter fan.<br><br>
+                You can contact📮 me via the below social media links<br>
+                in English, Hindi or Kannada.
+            </p> 
         </div>
-                <footer>
-                    <div class="fnav">
-                        <a href="https://github.com/dask-58">
-                            <img src="/assets/images/githublogo.png" height="50px">
-                        </a>
-                        <a href="https://linkedin.com/in/dhruvkoli">
-                            <img src="/assets/images/LI-In-Bug.png" height="50px">
-                        </a>
-                        <a href="mailto: googldhruv@gmail.com">
-                            <img src="/assets/images/gmail.png" height="50px">
-                        </a>
-                        </div>
-                    </footer>
+    </section>
+    <div class="footer">
+        <footer>
+            <div class="sociallinks">
+                <a href="https://github.com/dask-58"><i class='bx bxl-github bx-tada' ></i></a>
+                <a href="https://linkedin.com/in/dhruvkoli"><i class='bx bxl-linkedin bx-tada'></i></a>
+                <a href="https://x.com/dask_58"><i class='bx bxl-twitter bx-tada' ></i></a>
+                <a href="mailto: googldhruv@gmail.com"><i class='bx bxl-gmail bx-tada'></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
 </html>
