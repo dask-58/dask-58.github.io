@@ -128,15 +128,13 @@ body{
     left: 0;
     margin-right: 20px;
     background: transparent;
-    border: 3px solid white;
-    border-radius: 50%;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 52px;
     transition: .5s;
 }
 
 .sociallinks a:hover{
-    color: rgb(25, 157, 201);
+    color: crimson;
 }
 .footer{
     text-align: center;
