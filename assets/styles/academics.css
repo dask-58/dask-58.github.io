@@ -6,7 +6,7 @@
 }
 
 body{
-    background: url(/assets/images/academicbackground.webp);
+    background: url(/assets/images/academicsbackground.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -102,9 +102,6 @@ body{
     transition: .5s;
 }
 
-.sociallinks a:hover{
-    color: rgb(52, 244, 55);
-}
 .footer{
     text-align: center;
     display: flex;

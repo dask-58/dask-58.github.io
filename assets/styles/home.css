@@ -133,9 +133,6 @@ body{
     transition: .5s;
 }
 
-.sociallinks a:hover{
-    color: crimson;
-}
 .footer{
     text-align: center;
     display: flex;
