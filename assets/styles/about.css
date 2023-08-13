@@ -71,13 +71,6 @@ body{
     font-weight: 300;
 }
 
-.fade-in{
-    opacity: 0.2;
-    transition: opacity 1s ease-in-out;
-}
-.fade-in:hover{
-    opacity: 1;
-}
 .sociallinks{
     display: contents;
     justify-content: space-between;
