@@ -6,7 +6,7 @@
 }
 
 body{
-    background: url(/assets/images/about.gif);
+background: url(/assets/images/academicsbackground.webp);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -133,7 +133,7 @@ body{
     transition: .5s;
 }
 
-.footer{
+footer{
     text-align: center;
     display: flex;
     justify-content: center;
