@@ -1,157 +1,191 @@
 *{
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    color: crimson;
+    font-size: 5vmin;
 }
 
-body{
-background: url(/assets/images/academicsbackground.webp);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    color: aliceblue;
+ul{
+    list-style: none;
 }
 
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 10%;
-    background: aliceblue;
+.topnav{
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 25px;
+}
+.links{
+    display: flex;
     align-items: center;
-    z-index: 100;
 }
 
-.logo{
-    font-size: 36px;
-    color: crimson;
-    font-weight: 600;
-    text-decoration: none;
+.links li{
+    margin: 0 30px;
+    font-size: 3vmin;
 }
-
-.navbar a{
-    font-size: 24px;
+.links li a{
     color: black;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 40px;
-    transition: .5s;
+    transition: 0.5s;
+    font-weight: 400;
 }
-
-.navbar a:hover,
-.navbar a.active{
+.links li a:hover{
     color: crimson;
 }
+.links li a.active{
+    color: crimson;
+    font-weight: bold;
+    font-family: monospace;
+}
 
-@media (max-width: 600px) {
-    body {
-      font-size: 2em;
-    }
-    .navbar{
+@media only screen and (max-width: 850px){
+    .links{
         flex-direction: column;
-        font-size: 16px;
-        padding: 5px;
+        justify-content: center;
         text-align: center;
-    }
-  }
-@media(min-width: 601px) and (max-width: 1200px){
-    body{
-        font-size: 2em;
-    }
-    .navbar {
-        flex-direction: column;
-        font-size: 16px;
         padding: 5px;
-        text-align: center;
+        font-size: 16px;
+        width: 100%;
+    }
+    .links li{
+        font-size: 4vmin;
+    }
+    .logo{
+        font-size: 8vmin;
+    }
+    .about h1{
+        margin: auto;
+        margin-left: 0;
     }
 }
 
-@media (min-width: 1201px) {
-    body {
-      font-size: 36px;
-    }
-  }
-  
-.home{
-    display: flex;
-    align-items: center;
+header{
     height: 100vh;
-    padding: 0 10%;
-}
-
-.content-home{
-    max-width: 600px;
-}
-
-.content-home h1{
-    text-shadow: 1px 1px 2px crimson, 2px 2px yellowgreen, 3px 3px crimson;
-    font-size: 72px;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.content-home h3{
-    color: azure;
-    font-size: 36px;
-    font-style: oblique;
-}
-
-.content-home .about-box{
-    width: 300px;
-    height: 65px;
-    background: transparent;
-}
-
-.buttons{
+    width: 100%;
+    background-image: url(/assets/images/academicsbackground.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
-    margin: 10px;
-    padding: 10px;
+    justify-content: center;
+    align-items: flex-start;
 }
-.about-box a{
-    position: relative;
-    display: inline-flex;
-    height: 100%;
-    width: 100px;
-    background: transparent;
-    border: 3px solid white;
-    border-radius: 8px;
-    text-decoration: none;
+
+.content-header{
+    padding-top: 100px;
     color: white;
-    font-size: 24px;
-    font-weight: 500;
-    letter-spacing: 1px;
+    margin-top: 200px;
+    font-size: 7vmin;
+}
+
+.line{
+    background-color: crimson;
+    width: 200px;
+    height: 5px;
+    margin: 10px auto;
+}
+
+.content-header h1{
+    font-size: 10vmin;
+    display: flex;
     justify-content: center;
     align-items: center;
-    transition: .5s;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-shadow: 1px 1px crimson, 2px 2px yellowgreen, 3px 3px crimson;
 }
 
-.about-box a:hover{
-    color: crimson;
-}
-
-.contact-box a{
-    position: static;
+.content-header p{
     display: flex;
-    height: 100%;
-    width: 100px;
-    background: transparent;
-    border: 3px solid white;
-    border-radius: 8px;
-    text-decoration: none;
-    color: white;
-    font-size: 24px;
-    font-weight: 500;
-    letter-spacing: 1px;
+    margin-left: 20px;
     justify-content: center;
     align-items: center;
-    transition: .5s;
+    font-size: 6vmin;
 }
-.contact-box a:hover{
-    color: crimson;
+
+section{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/images/about.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.about h1{
+    font-size: 10vmin;
+    margin-top: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about p{
+    font-size: 6vmin;
+    color: white;
+    margin-left: 20px;
+}
+.academics{
+    padding-top: 150px;
+    background-image: url(/assets/images/academicsbackground.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.academics h1{
+    color: white;
+    font-size: 7vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.academics h2{
+    color: white;
+    font-size: 7vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+.academics ol{
+    color: white;
+    font-size: 4vmin;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.connect{
+    background-image: url(/assets/images/about.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4vmin;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .sociallinks{
@@ -166,7 +200,7 @@ background: url(/assets/images/academicsbackground.webp);
 
 .sociallinks a{
     position: relative;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 40px;
@@ -175,14 +209,18 @@ background: url(/assets/images/academicsbackground.webp);
     margin-right: 20px;
     background: transparent;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 52px;
 }
-
-.links{
+footer{
+    background-image: url(/assets/images/about.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
     display: flex;
     justify-content: center;
-    font-size: 2em;
-    margin-bottom: 60px;
-    padding: 60px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
 }
