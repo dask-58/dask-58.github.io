@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: default;
 }
 html{
     scroll-behavior: smooth;
@@ -20,7 +21,9 @@ a{
     transition: 0.6s;
 }
 .logo a:hover{
-    color: rgba(26, 65, 206, 0.884);
+   color: crimson;
+   margin-left: 10px;
+   box-shadow: 10px 10px 10px gray;
 }
 
 ul{
@@ -52,6 +55,9 @@ ul{
 }
 .links li a:hover{
     color: rgba(26, 65, 206, 0.884);
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 10px 10px 10px gray;
 }
 
 @media only screen and (max-width: 850px){
@@ -84,7 +90,7 @@ ul{
 header{
     height: 150vh;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: rgb(32, 22, 22);
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -92,7 +98,7 @@ header{
 
 .content-header{
     padding-top: 100px;
-    color: black;
+    color: white;
     margin-top: 200px;
     font-size: 7vmin;
 }
@@ -105,12 +111,12 @@ header{
 }
 
 .content-header h1{
-    color: black;
+    color: white;
     font-size: 16vmin;
     font-weight: bold;
     text-align: center;
     letter-spacing: 10px;
-    cursor: pointer;
+    cursor: default;
 }
 
 .content-header h1 span{
@@ -118,9 +124,10 @@ header{
 }
 .content-header h1:hover span{
     margin-right: 10px;
+    margin-left: 10px;
 }
 h1:hover span {
-    color: crimson;
+    color: lime;
     text-shadow:  1px 1px 10px black ;
   }
 
@@ -213,5 +220,12 @@ section{
 .contact-list a {
     padding: 10px 20px;
     font-size: 7vmin;
+    transition: 0.6s;
 }
-
+.contact-list a:hover{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: dodgerblue;
+    border-radius: 100%;
+    box-shadow: 10px 10px 10px gray;
+}
