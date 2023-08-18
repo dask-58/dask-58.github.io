@@ -12,8 +12,15 @@ a{
     text-decoration: none;
 }
 .logo{
-    color: crimson;
     font-size: 5vmin;
+}
+.logo a{
+    font-family: cursive;
+    color: black;
+    transition: 0.6s;
+}
+.logo a:hover{
+    color: rgba(26, 65, 206, 0.884);
 }
 
 ul{
@@ -26,7 +33,7 @@ ul{
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: aliceblue;
+    background-color: rgb(228, 221, 221);
     padding: 25px;
 }
 .links{
@@ -41,15 +48,10 @@ ul{
 .links li a{
     color: black;
     transition: 0.5s;
-    font-weight: 400;
+    font-weight: 900;
 }
 .links li a:hover{
-    color: crimson;
-}
-.links li a.active{
-    color: crimson;
-    font-weight: bold;
-    font-family: monospace;
+    color: rgba(26, 65, 206, 0.884);
 }
 
 @media only screen and (max-width: 850px){
@@ -62,7 +64,7 @@ ul{
         width: 100%;
     }
     .links li{
-        font-size: 4vmin;
+        font-size: 5vmin;
     }
     .logo{
         font-size: 12vmin;
@@ -74,17 +76,15 @@ ul{
         margin: auto;
         margin-left: 0;
     }
-    
+    .contact-list a{
+        display: flex;
+    }
 }
 
 header{
     height: 150vh;
     width: 100%;
-    background-image: url(/assets/images/academicsbackground.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: whitesmoke;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -92,7 +92,7 @@ header{
 
 .content-header{
     padding-top: 100px;
-    color: white;
+    color: black;
     margin-top: 200px;
     font-size: 7vmin;
 }
@@ -105,14 +105,24 @@ header{
 }
 
 .content-header h1{
-    font-size: 10vmin;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-    margin-top: 50px;
-    text-shadow: 1px 1px crimson, 2px 2px yellowgreen, 3px 3px crimson;
+    color: black;
+    font-size: 16vmin;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 10px;
+    cursor: pointer;
 }
+
+.content-header h1 span{
+    transition: 0.6s ease-in-out;
+}
+.content-header h1:hover span{
+    margin-right: 10px;
+}
+h1:hover span {
+    color: crimson;
+    text-shadow:  1px 1px 10px black ;
+  }
 
 .content-header p{
     display: flex;
@@ -129,31 +139,24 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/assets/images/about.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: aliceblue;
 }
 .about h1{
     font-size: 10vmin;
     margin-top: 100px;
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .about p{
     font-size: 6vmin;
-    color: white;
+    color: black;
     margin-left: 20px;
 }
 .academics{
     padding-top: 100px;
-    background-image: url(/assets/images/academicsbackground.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: rgba(229, 237, 235, 0.969);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,76 +164,54 @@ section{
     margin: 0 auto;
 }
 .academics h1{
-    color: white;
-    font-size: 7vmin;
+    color: black;
+    font-size: 10vmin;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .academics h2{
-    color: white;
-    font-size: 7vmin;
+    color: black;
+    font-size: 10vmin;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 5px;
 }
 .academics ol{
-    color: white;
+    color: black;
     font-size: 6vmin;
     flex-direction: column;
     margin-left: 25px;
     align-items: center;
-    padding-bottom: 60px;
-}
-.connect{
-    background-image: url(/assets/images/about.webp);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: whitesmoke;
-    font-size: 4vmin;
     padding-bottom: 100px;
-    padding-top: 100px;
 }
 
-.sociallinks{
-    display: contents;
-    justify-content: space-between;
+.contact-section {
+    padding: 40px;
+    background-color: aliceblue;
+}
+
+.contact-section h2 {
+    font-size: 10vmin;
+    margin-bottom: 10px;
     margin-left: 10px;
-    position: absolute;
-    width: 140px;
-    bottom: 50px;
-    background: transparent;
 }
 
-.sociallinks a{
-    position: relative;
-    display: flex;
+
+.contact-list {
+    list-style: none;
+    padding: 10px;
+}
+
+.contact-list li {
+    margin: 10px 5px;
+    display: inline-flex;
     justify-content: center;
-    color: whitesmoke;
     align-items: center;
-    width: 40px;
-    height: 40px;
-    left: 0;
-    margin-right: 20px;
-    background: transparent;
-    text-decoration: none;
-    font-size: 52px;
 }
-footer{
-    background-image: url(/assets/images/about.webp);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-    padding: 160px;
+
+.contact-list a {
+    padding: 10px 20px;
+    font-size: 7vmin;
 }
+
