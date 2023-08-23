@@ -111,10 +111,7 @@ header{
     margin: 10px auto;
     transition: 0.6s;
 }
-.line:hover{
-    width: 800px;
-    height: 10px;
-}
+
 .content-header h1{
     color: white;
     font-size: 16vmin;
