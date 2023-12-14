@@ -13,6 +13,7 @@ body{
     background-attachment: fixed;
     background-position: center center;
 }
+
 @media only screen and (max-width: 850px){
     body{
         background-size: cover;
