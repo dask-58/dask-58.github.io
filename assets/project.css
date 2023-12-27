@@ -1,0 +1,454 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap");
+* {
+    font-family: Rockwell;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scroll-padding: 7.5rem;
+}
+
+body {
+    background: rgb(173,255,255);
+    background: linear-gradient(90deg, rgba(173,255,255,1) 0%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);
+}
+
+header {
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    font-size: 3.85vmin;
+    font-weight: 750;
+    color: white;
+    display: inline-block;
+}
+
+.logo i {
+    padding-right: 2rem;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    background: rgb(3,9,40);
+    background: linear-gradient(90deg, rgba(3,9,40,1) 0%, rgba(18,51,153,1) 100%, rgba(255,255,255,1) 100%);
+    color: white;
+    padding: 1em;
+    font-size: 25px;
+    z-index: 1000;
+}
+
+.menu li:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+}
+
+.menu>li {
+    margin: 0 1rem;
+    overflow: hidden;
+}
+
+.menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+    display: block;
+    background-color: white;
+    position: absolute;
+    height: 6px;
+    width: 32px;
+    border-radius: 3px;
+    color: #237480;
+}
+
+.menu-button::before {
+    content: "";
+    margin-top: -8px;
+}
+
+.menu-button::after {
+    content: "";
+    margin-top: 8px;
+}
+    
+ #menu-toggle:checked+.menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(45deg);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button {
+    background: #237480;
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-45deg);
+}
+    
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+    header {
+        padding: 2rem;
+    }
+    section {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-button-container {
+        display: flex;
+    }
+    .menu {
+        position: absolute;
+        top: 0;
+        margin-top: 50px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem
+    }
+    .menu li:hover {
+        transform: scale(1);
+    }
+    #menu-toggle~.menu li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    #menu-toggle:checked~.menu li {
+        border: 1px solid #237480;
+        height: 2.5em;
+        padding: 0.5em;
+    }
+    .menu>li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0.5em 0;
+        width: 100%;
+        color: black;
+        background-color: #237480;
+    }
+    .menu>li:not(:last-child) {
+        border-bottom: 1px solid #444;
+    }
+}
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.home .content {
+    flex: 1 1 40rem;
+    padding-top: 6.5rem;
+}
+
+
+.home .image {
+    flex: 1 1 30rem;
+}
+
+.home .image img {
+    width: 90%;
+    height: 90%;
+    padding: 1rem;
+    animation: float 8s linear infinite;
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0rem);
+    }
+    50% {
+        transform: translateY(3rem);
+    }
+}
+
+.home .content h3 {
+    font-size: 5rem;
+    color: #003049;
+}
+
+.redcolor {
+    color: rgb(178, 17, 17);
+}
+
+.mainfont {
+    font-family: "Jacques Francois Shadow", cursive;
+}
+
+.home .content p {
+    font-size: 1.7rem;
+    color: #003049;
+    padding: 1rem 0;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 1rem;
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 3rem;
+    border: 0.2rem solid white;
+    color: white;
+    cursor: pointer;
+    font-size: 1.7rem;
+    border-radius: 0.5rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    margin: 1rem 1rem 0 0;
+}
+
+.btn:hover {
+    color: #fff;
+}
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        text-align: center;
+    }
+}
+
+.about {
+    color: #003049;
+    background: rgb(248,249,255);
+    background: radial-gradient(circle, rgba(248,249,255,1) 0%, rgb(192, 237, 244) 100%, rgba(255,255,255,1) 100%);
+}
+
+.about .content h2{
+    font-size: 7vmin;
+    text-align: center;
+}
+
+.about .team h2{
+    font-size: 7vmin;
+    text-align: center;
+}
+
+.about .team img{
+    width: 100%;
+    height: auto;
+}
+
+.services{
+    background: rgb(191,196,180);
+    background: radial-gradient(circle, rgba(191,196,180,1) 0%, rgba(191,196,180,1) 39%, rgba(191,196,180,1) 85%);
+    margin: 0;
+}
+
+.services .content{
+    color: rgb(5, 32, 61);
+    align-items: center;
+    text-align: center;
+}
+
+.services .content h2{
+    font-size: 7vmin;
+    
+}
+.services .content .aiml img{
+    width: 100%;
+    height: auto;
+}
+.services .content .stress img{
+    top: 20px;
+    width: 100%;
+    height: auto;
+}
+.services .content .magazine img{
+    width: 100%;
+    height: auto;
+}
+.services .content .maternity img{
+    width: 100%;
+    height: auto;
+}
+.services .content .community img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 90px;
+}
+video{
+    height: 1000px;
+    width: 100%;
+}
+
+
+footer {
+    position: relative;
+    color: white;
+    width: 100%;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .social-icon,
+  .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  .social-icon__item,
+  .menu__item {
+    list-style: none;
+  }
+  
+  .social-icon__link {
+    font-size: 5vmin;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  .social-icon__link:hover {
+    transform: translateY(-10px);
+  }
+  
+  .menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+  }
+  
+  .menu__link:hover {
+    opacity: 1;
+  }
+  
+  .footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  .wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url("https://i.ibb.co/wQZVxxk/wave.png");
+    background-size: 1000px 100px;
+  }
+  
+  .wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWaves 4s linear infinite;
+  }
+  
+  .wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animate 4s linear infinite !important;
+  }
+  
+  .wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWaves 3s linear infinite;
+  }
+  
+  .wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animate 3s linear infinite;
+  }
+  
+  @keyframes animateWaves {
+    0% {
+      background-position-x: 1000px;
+    }
+    100% {
+      background-positon-x: 0px;
+    }
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position-x: -1000px;
+    }
+    100% {
+      background-positon-x: 0px;
+    }
+  }

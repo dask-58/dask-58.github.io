@@ -1,2 +1,3 @@
 # Personal Webpage
-disconitnued
+
+Now includes The EG101 project.

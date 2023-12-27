@@ -14,16 +14,24 @@ body{
     background-position: center center;
 }
 
+header {
+    color: rgb(243, 63, 240);
+    margin: 20vmin;
+    justify-content: center;
+    font-size: 7vmin;
+    text-align: center;
+}
+
 @media only screen and (max-width: 850px){
     body{
         background-size: cover;
     }
 
 }
-.dis h3{
-    color: lime;
+.project{
     text-align: center;
-    margin-top: 300px;
-    font-size: x-large;
+    margin-top: 30px;
+    font-size: 3vmin;
     font-family: monospace;
 }
+
