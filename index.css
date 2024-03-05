@@ -5,7 +5,7 @@
 .slide-in {
     opacity: 0;
     transform: translateX(-100%);
-    animation: slideIn 3s forwards;
+    animation: slideIn 1s forwards;
   }
   
   @keyframes slideIn {
