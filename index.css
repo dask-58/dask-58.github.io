@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  cursor: url('./public/icons8-homer-simpson-32.png'), default;
+}
+
 .slide-in {
     opacity: 0;
     transform: translateX(-100%);
@@ -19,11 +23,26 @@
     }
   }
   
-  .home {
-    background-image: linear-gradient(to right, #c81313, #07284b);
-    animation: backgroundAnimation 10s linear infinite alternate;
-  }
-  
+  .rick {
+    background-position: right;
+    width: 100vw; /* Adjust as needed */
+    height: 100vh; /* Adjust as needed */
+    background-image: url('./public/rick-imageonline.co-5070274.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+}
+
+.eye {
+    position: absolute;
+    width: 100vw; /* Adjust as needed */
+    height: 100vh; /* Adjust as needed */
+    background-color: white;
+    border-radius: 50%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
   @keyframes backgroundAnimation {
     0% {
       background-position: 0% 50%;
@@ -33,3 +52,9 @@
     }
   }
   
+
+  @media (max-width: 768px) {
+    .rick {
+        background-position: bottom; /* Adjust background position for smaller screens */
+    }
+}
