@@ -1,84 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 html {
   cursor: url('./public/icons8-homer-simpson-32.png'), default;
 }
 
-.home {
-  margin-left: 20px;
-  z-index: 1;
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: inherit; 
+  z-index: 10; 
 }
-
-.slide-in {
-    opacity: 0;
-    transform: translateX(-100%);
-    animation: slideIn 1s forwards;
-  }
-  
-  @keyframes slideIn {
-    from {
-      opacity: 0;
-      transform: translateX(-100%);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-  
-  .rick {
-    z-index: 100;
-    background-position: bottom;
-    max-width: 100%; /* Adjust as needed */
-    height: 100vh; /* Adjust as needed */
-    background-image: url('./public/rick-imageonline.co-5070274.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: black;
-}
-
-.eye {
-    position: absolute;
-    width: 100vw; /* Adjust as needed */
-    height: 100vh; /* Adjust as needed */
-    background-color: white;
-    border-radius: 50%;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-  @keyframes backgroundAnimation {
-    0% {
-      background-position: 0% 50%;
-    }
-    100% {
-      background-position: 100% 50%;
-    }
-  }
-
-  .project-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start; /* Changed from 'center' to 'flex-start' */
-    gap: 20px;
-    margin: 20px;
-}
-
-.project-card {
-  background-color: aliceblue;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 50vmax;
-    max-width: 100%;
-}
-
-  .project-card {
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .project-card:hover {
-    transform: scale(1.05);
-  }
