@@ -1,5 +1,6 @@
 html {
   cursor: url('./public/icons8-homer-simpson-32.png'), default;
+  scroll-behavior: smooth;
 }
 
 .sticky {
