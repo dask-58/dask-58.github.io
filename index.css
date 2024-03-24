@@ -1,6 +1,15 @@
+@font-face {
+  font-family: 'Cartograph';
+  src: url('Fonts/CartographCF-DemiBoldItalic.otf') format('opentype');
+}
+
 html {
-  cursor: url('./public/icons8-homer-simpson-32.png'), default;
+  cursor: url('./public/iron-man.png'), default;
   scroll-behavior: smooth;
+}
+
+.carto {
+  font-family: cartograph;
 }
 
 .sticky {
