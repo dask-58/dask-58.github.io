@@ -1,85 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dhruv Koli</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
-  <link href="./index.css" rel="stylesheet">
-  <script src="./script.js"></script>
-</head>
-<body class="bg-gray-900 text-white carto">
-
-  <header class="container mx-auto p-2 bg-blue-200">
-    <nav class="sticky flex justify-between items-center">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dhruv Koli</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link href="./index.css" rel="stylesheet" />
+    <script src="./script.js"></script>
+  </head>
+  <body class="bg-gray-900 text-white carto">
+    <header class="container mx-auto p-2 bg-blue-200">
+      <nav class="sticky flex justify-between items-center">
         <div class="flex items-center">
-            <a href="https://github.com/dask-58" class="ml-1 mr-4 hover:text-gray-400">
-                <img src="./public/github-142-svgrepo-com.svg" class="w-9 h-auto">
-            </a>
-            <a href="https://linkedin.com/in/dhruvkoli" class="mr-4 hover:text-gray-400">
-                <img src="./public/linkedin-svgrepo-com.svg" class="w-10 h-auto">
-            </a>
-            <a href="https://x.com/dask_58" class="hover:text-gray-400">
-                <img src="./public/twitter-color-svgrepo-com.svg" class="w-9 h-auto">
-            </a>
+          <a
+            href="https://github.com/dask-58"
+            class="ml-1 mr-4 hover:text-gray-400"
+          >
+            <img src="./public/github-142-svgrepo-com.svg" class="w-9 h-auto" />
+          </a>
+          <a
+            href="https://linkedin.com/in/dhruvkoli"
+            class="mr-4 hover:text-gray-400"
+          >
+            <img src="./public/linkedin-svgrepo-com.svg" class="w-10 h-auto" />
+          </a>
+          <a href="https://x.com/dask_58" class="hover:text-gray-400">
+            <img
+              src="./public/twitter-color-svgrepo-com.svg"
+              class="w-9 h-auto"
+            />
+          </a>
         </div>
         <div>
-            <a href="https://dask-58.github.io" class="text-blue-800 font-bold hover:text-red-900 mr-4">HI</a>
-            <a href="#about" class="text-blue-800 font-bold hover:text-blue-400 mr-4">WHO</a>
-            <a href="#projects" class="text-blue-800 font-bold hover:text-blue-400 mr-4">WORK</a>
+          <a
+            href="https://dask-58.github.io"
+            class="text-blue-800 font-bold hover:text-red-900 mr-4"
+            >HI</a
+          >
+          <a
+            href="#about"
+            class="text-blue-800 font-bold hover:text-blue-400 mr-4"
+            >WHO</a
+          >
+          <a
+            href="#projects"
+            class="text-blue-800 font-bold hover:text-blue-400 mr-4"
+            >WORK</a
+          >
         </div>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-  <section class="container mx-auto text-center">
-    <div class="relative min-h-screen">
-        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://source.unsplash.com/random/?space/')"></div>
+    <section class="container mx-auto text-center">
+      <div class="relative min-h-screen jb-mono">
+        <div
+          class="absolute inset-0 bg-cover bg-center"
+          style="
+            background-image: url(&quot;https://source.unsplash.com/random/?car/&quot;);
+          "
+        ></div>
         <div class="absolute inset-0 flex items-center justify-center">
-          <h1 class="text-white-900 text-8xl font-bold">Dhruv Koli</h1>
+          <h1 class="text-yellow-300 text-8xl font-bold">Dhruv Koli</h1>
         </div>
       </div>
-  </section>
+    </section>
 
-  <section id="about" class="container mx-auto py-10 px-6">
-    <h2 class="text-3xl font-bold mb-4">About Me</h2>
-    <p class="text-gray-300 mb-4">I'm a 18 year old competitive programmer. I like football and history. When I'm not sitting infront of screen, you can find me sleeping, eating, playing games or reading a book.</p>
-    <br><br>
-    <p class="text-gray-300">Some of the things I made for fun are below.</p>
-  </section>
+    <section id="about" class="container mx-auto py-10 px-6">
+      <h2 class="text-3xl font-bold mb-4 carto">About Me</h2>
+      <p class="text-gray-300 mb-4 jb-mono">
+        I'm a 18 year old competitive programmer. I like football and history.
+        When I'm not sitting infront of screen, you can find me sleeping,
+        eating, playing games or reading a book.
+      </p>
+      <br /><br />
+      <p class="text-gray-300 jb-mono">
+        Some of the things I made for fun are below.
+      </p>
+    </section>
 
+    <section id="projects" class="container mx-auto px-6 py-7">
+      <h2 class="text-3xl font-bold mb-8">My Work</h2>
+      <div class="flex flex-wrap -mx-4">
+        <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+          <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+            <img
+              src="./public/daskgenai.jpeg"
+              alt="Project 1"
+              class="w-full h-auto object-cover"
+            />
+            <div class="px-6 py-4">
+              <h3 class="text-xl font-bold mb-2">DaskGenAI</h3>
+              <p class="text-gray-400 mb-4">
+                A Google gemini-pro-vison API based GenAi application.
+              </p>
+              <a
+                href="https://dask-58.github.io/daskgenai"
+                class="text-green-500 hover:text-green-600"
+                >Live Here</a
+              >
+            </div>
+          </div>
+        </div>
 
-  <section id="projects" class="container mx-auto px-6 py-7">
-    <h2 class="text-3xl font-bold mb-8">My Work</h2>
-    <div class="flex flex-wrap -mx-4">
-      <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
-          <img src="./public/daskgenai.jpeg" alt="Project 1" class="w-full h-auto object-cover">
-          <div class="px-6 py-4">
-            <h3 class="text-xl font-bold mb-2">DaskGenAI</h3>
-            <p class="text-gray-400 mb-4">A Google gemini-pro-vison API based GenAi application.</p>
-            <a href="https://dask-58.github.io/daskgenai" class="text-green-500 hover:text-green-600">Live Here</a>
+        <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+          <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+            <img
+              src="https://source.unsplash.com/random/?money/"
+              alt="Project 1"
+              class="w-full h-auto object-cover"
+            />
+            <div class="px-6 py-4">
+              <h3 class="text-xl font-bold mb-2">Spend Elan Mask's Money</h3>
+              <p class="text-gray-400 mb-4">
+                A fun webpage which allows users to simulate spending the
+                richest man's money : AS THEY WISH !!!
+              </p>
+              <a
+                href="https://dask-58.github.io/spendelonmoney"
+                class="text-green-500 hover:text-green-600"
+                >Live Here</a
+              >
+            </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
-          <img src="https://source.unsplash.com/random/?money/" alt="Project 1" class="w-full h-auto object-cover">
-          <div class="px-6 py-4">
-            <h3 class="text-xl font-bold mb-2">Spend Elan Mask's Money</h3>
-            <p class="text-gray-400 mb-4">A fun webpage which allows users to simulate spending the richest man's money : AS THEY WISH !!!</p>
-            <a href="https://dask-58.github.io/spendelonmoney" class="text-green-500 hover:text-green-600">Live Here</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <footer class="container mx-auto px-6 py-8 text-center">
-    <p>Built by Dhruv Koli</p>
-    <p>Last Updated : 10th March 2024, 9:10 pm.</p>
-</footer>
-
-</body>
+    <footer class="container mx-auto px-6 py-8 text-center">
+      <p>Built by Dhruv Koli</p>
+      <p>Last Updated : 10th March 2024, 9:10 pm.</p>
+    </footer>
+  </body>
 </html>

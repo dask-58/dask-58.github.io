@@ -2,6 +2,10 @@
   font-family: 'Cartograph';
   src: url('Fonts/CartographCF-DemiBoldItalic.otf') format('opentype');
 }
+@font-face {
+  font-family: 'MONO';
+  src: url('Fonts/JetBrainsMonoNL-Regular.ttf') format('truetype');
+}
 
 html {
   cursor: url('./public/iron-man.png'), default;
@@ -10,6 +14,10 @@ html {
 
 .carto {
   font-family: cartograph;
+}
+
+.jb-mono {
+  font-family: MONO;
 }
 
 .sticky {
