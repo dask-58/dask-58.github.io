@@ -1,137 +1,167 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+
     <title>Dhruv Koli</title>
+    <link rel="icon" href="public/phoenix-svgrepo-com.svg" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Zen+Old+Mincho&display=swap" rel="stylesheet">
+
     <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css"
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Roboto+Mono:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link href="./index.css" rel="stylesheet" />
-    <script src="./script.js"></script>
   </head>
-  <body class="bg-gray-900 text-white carto">
-    <header class="container mx-auto p-2 bg-blue-200">
-      <nav class="sticky flex justify-between items-center">
-        <div class="flex items-center">
-          <a
-            href="https://github.com/dask-58"
-            class="ml-1 mr-4 hover:text-gray-400"
-          >
-            <img src="./public/github-142-svgrepo-com.svg" class="w-9 h-auto" />
-          </a>
-          <a
-            href="https://linkedin.com/in/dhruvkoli"
-            class="mr-4 hover:text-gray-400"
-          >
-            <img src="./public/linkedin-svgrepo-com.svg" class="w-10 h-auto" />
-          </a>
-          <a href="https://x.com/dask_58" class="hover:text-gray-400">
+
+  <body>
+
+    <main>
+      <section id="top" class="hero">
+        <div class="about-img-container">
             <img
-              src="./public/twitter-color-svgrepo-com.svg"
-              class="w-9 h-auto"
+              width="120"
+              height="120"
+              src="https://avatars.githubusercontent.com/u/140686560?v=4"
+              alt="Profile Picture"
             />
+          </div>
+        <h1>Hi, I'm <span class="gradient">Dhruv </span><img src="public/phoenix-svgrepo-com.svg"></h1>
+          <p>I am a competitive programmer and a CS undergrad at the </br> Indian Institute of Information Technology, Dharwad.</p>
+        <div class="social-links">
+          <a href="#" aria-label="GitHub">
+            <img src="public/github.svg" alt="GitHub" />
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <img src="public/linkedin.svg" alt="LinkedIn" />
+          </a>
+          <a href="#" aria-label="Email">
+            <img src="public/mail.svg" alt="Email" />
           </a>
         </div>
-        <div>
-          <a
-            href="https://dask-58.github.io"
-            class="text-blue-800 font-bold hover:text-red-900 mr-4"
-            >HI</a
-          >
-          <a
-            href="#about"
-            class="text-blue-800 font-bold hover:text-blue-400 mr-4"
-            >WHO</a
-          >
-          <a
-            href="#projects"
-            class="text-blue-800 font-bold hover:text-blue-400 mr-4"
-            >WORK</a
-          >
+      </section>
+
+      <section id="image">
+        <h2>Some random images : </h2>
+        <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 9</div>
+            <img src="public/1.jpeg" style="width:100%; height:auto">
+            <div class="text">Caption Text</div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 9</div>
+            <img src="public/2.jpeg" style="width:100%; height:auto">
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 9</div>
+            <img src="public/3.jpeg" style="width:100%; height:auto">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 9</div>
+            <img src="public/4.jpeg" style="width:100%; height:auto">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 9</div>
+            <img src="public/5.jpeg" style="width:100%; height:auto">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 9</div>
+            <img src="public/6.jpeg" style="width:100%; height:auto">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">7 / 9</div>
+            <img src="public/7.jpeg" style="width:100%; height:auto">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">8 / 9</div>
+            <img src="public/8.jpeg" style="width:100%; height:auto">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">9 / 9</div>
+            <img src="public/9.jpeg" style="width:100%; height:auto">
+          </div>
+        
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-      </nav>
-    </header>
-
-    <section class="container mx-auto text-center">
-      <div class="relative min-h-screen jb-mono">
-        <div
-          class="absolute inset-0 bg-cover bg-center"
-          style="
-            background-image: url(&quot;https://source.unsplash.com/random/?car/&quot;);
-          "
-        ></div>
-        <div class="absolute inset-0 flex items-center justify-center">
-          <h1 class="text-yellow-300 text-8xl font-bold">Dhruv Koli</h1>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
         </div>
-      </div>
-    </section>
+        
+      </section>
 
-    <section id="about" class="container mx-auto py-10 px-6">
-      <h2 class="text-3xl font-bold mb-4 carto">About Me</h2>
-      <p class="text-gray-300 mb-4 jb-mono">
-        I'm a 18 year old competitive programmer. I like football and history.
-        When I'm not sitting infront of screen, you can find me sleeping,
-        eating, playing games or reading a book.
-      </p>
-      <br /><br />
-      <p class="text-gray-300 jb-mono">
-        Some of the things I made for fun are below.
-      </p>
-    </section>
-
-    <section id="projects" class="container mx-auto px-6 py-7">
-      <h2 class="text-3xl font-bold mb-8">My Work</h2>
-      <div class="flex flex-wrap -mx-4">
-        <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-          <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
-            <img
-              src="./public/daskgenai.jpeg"
-              alt="Project 1"
-              class="w-full h-auto object-cover"
-            />
-            <div class="px-6 py-4">
-              <h3 class="text-xl font-bold mb-2">DaskGenAI</h3>
-              <p class="text-gray-400 mb-4">
-                A Google gemini-pro-vison API based GenAi application.
-              </p>
+      <section id="project">
+        <h2>MY WORK</h2>
+        <div class="project-container">
+          <!-- Repo -->
+          <div class="repository-container">
+            <div class="repository-head">
               <a
                 href="https://dask-58.github.io/daskgenai"
-                class="text-green-500 hover:text-green-600"
-                >Live Here</a
+                target="_blank"
+                rel="noopener noreferrer"
               >
-            </div>
-          </div>
-        </div>
-
-        <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-          <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
-            <img
-              src="https://source.unsplash.com/random/?money/"
-              alt="Project 1"
-              class="w-full h-auto object-cover"
-            />
-            <div class="px-6 py-4">
-              <h3 class="text-xl font-bold mb-2">Spend Elan Mask's Money</h3>
-              <p class="text-gray-400 mb-4">
-                A fun webpage which allows users to simulate spending the
-                richest man's money : AS THEY WISH !!!
-              </p>
+                <h3>daskgenai</h3>
+              </a>
               <a
-                href="https://dask-58.github.io/spendelonmoney"
-                class="text-green-500 hover:text-green-600"
-                >Live Here</a
-              >
+                href="https://github.com/dask-58/daskgenai"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  width="16"
+                  height="16"
+                  src="public/external-link.svg"
+                  alt="external-link"
+              /></a>
+            </div>
+
+            <p class="repository-description">
+                Google Gemini Vision Pro powered AI chat bot with image recognition.
+            </p>
+            <div class="repository-language-used-container">
+              <span class="language-used">ReactJs + Vite</span>
+              <span class="language-used">Google Gemini API</span>
+              <span class="language-used">Tailwind</span>
             </div>
           </div>
+          <!-- Repo End -->
         </div>
-      </div>
-    </section>
+      </section>
 
-    <footer class="container mx-auto px-6 py-8 text-center">
-      <p>Built by Dhruv Koli</p>
-      <p>Last Updated : 10th March 2024, 9:10 pm.</p>
-    </footer>
-  </body>
-</html>
+
+    </main>
+
+    <footer>
+      <p>
+        &copy; <script> document.write(new Date().getFullYear());
+        </script> Dhruv. All rights reserved.
+        </p>
+      </footer>
+
+      <script src="script.js"></script>
+    </body>
+  </html>
+  
