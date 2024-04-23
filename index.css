@@ -1,4 +1,3 @@
-/* General Styles */
 :root {
   --bg-color: #0d1117;
   --font-color: #c9d1d9;
@@ -57,7 +56,6 @@
  }
  
  
- /* Hero Section */
  .hero {
   display: flex;
   flex-direction: column;
@@ -72,7 +70,9 @@
   background: linear-gradient(
     -35deg,
     var(--accent-color-1) 0%,
-    var(--accent-color-2) 100%
+    lime 25%,
+    pink 50%,
+    var(--accent-color-1) 100%
   );
   background-size: 300%;
   background-clip: text;
@@ -173,7 +173,7 @@
 .about-img-container:hover img {
   transform: scale(1.102);
 }
- /* Footer */
+
  footer {
   background-color: var(--code-bg);
   color: var(--code-color);
@@ -181,7 +181,6 @@
   padding: 1rem;
  }
  
- /* Animations */
  @keyframes animated_text {
   0% {
     background-position: 0px 50%;
@@ -194,7 +193,6 @@
   }
  }
  
- /* Media Queries */
  @media (max-width: 768px) {
   nav ul {
     display: none;
@@ -205,79 +203,6 @@
   }
  }
 
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-.mySlides {
-  display: none;
-}
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+#blogs{
+  padding: 4rem 2rem;
 }
