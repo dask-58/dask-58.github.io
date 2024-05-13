@@ -1,5 +1,5 @@
 :root {
-  --bg-color: #050607;
+  --bg-color: #020202;
   --font-color: #fbfdfc;
   --link-color: #137ef0;
   --accent-color-1: #79c0ff;
@@ -199,6 +199,9 @@
   }
  
   .project-container {
+    grid-template-columns: 1fr;
+  }
+  .blog-container {
     grid-template-columns: 1fr;
   }
  }
