@@ -1,11 +1,11 @@
 :root {
-  --bg-color: #222831;
+  --bg-color: #1c2532;
   --font-color: #EEEEEE;
-  --link-color: #76ABAE;
+  --link-color: #17aab5;
   --accent-color-1: #EEEEEE;
-  --accent-color-2: #76ABAE;
-  --code-bg: #31363F;
-  --code-color: #76ABAE;
+  --accent-color-2: #17aab5;
+  --code-bg: #0f182a;
+  --code-color: #17aab5;
  }
 
  html {
