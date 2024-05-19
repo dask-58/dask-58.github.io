@@ -2,7 +2,7 @@
   --bg-color: #0d1117; /* Dark Navy */
   --font-color: #c9d1d9; /* Light Grey */
   --link-color: #58a6ff; /* Blue */
-  --accent-color-1: #58a6ff; /* Blue */
+  --accent-color-1: #EEEEEE; /* Blue */
   --accent-color-2: #8b949e; /* Grey */
   --code-bg: #161b22; /* Dark Grey */
   --code-color: #79c0ff; /* Light Blue */
@@ -201,18 +201,37 @@ footer {
   position: fixed;
   top: 20px;
   right: 20px;
-  padding: 7px 16px;
+  padding: 10px;
   background-color: var(--accent-color-1);
   color: var(--bg-color);
   border: none;
-  border-radius: 6px;
-  font-family: monospace;
+  border-radius: 50%;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.toggle-btn:hover {
-  background-color: var(--accent-color-2);
+.toggle-btn i {
+  font-size: 20px;
+  transition: opacity 0.3s ease;
+}
+
+.toggle-btn .fa-sun {
+  opacity: 0;
+}
+
+.toggle-btn .fa-moon {
+  opacity: 1;
+}
+
+.light-mode .toggle-btn .fa-sun {
+  opacity: 1;
+}
+
+.light-mode .toggle-btn .fa-moon {
+  opacity: 0;
 }
 
 @media (max-width: 768px) {
