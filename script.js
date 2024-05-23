@@ -1,5 +1,5 @@
 console.log("Did you come to inspect my website ? ")
-console.log("Go ahead!")
+console.log("Go ahead good luck!")
 
 const toggleBtn = document.querySelector('.toggle-btn');
 const body = document.body;
