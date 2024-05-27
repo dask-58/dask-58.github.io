@@ -1,3 +1,11 @@
+@font-face {
+  font-family: jbmono;
+  src: url('/Fonts/JetBrainsMonoNL-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: carto;
+  src: url('Fonts/CartographCF-DemiBoldItalic.otf') format('opentype');
+}
 :root {
   --bg-color: #0d1117; /* Dark Navy */
   --font-color: #c9d1d9; /* Light Grey */
@@ -33,13 +41,13 @@ body {
   min-height: 100vh;
   background-color: var(--bg-color);
   color: var(--font-color);
-  font-family: 'Kode Mono', monospace;
+  font-family: 'jbmono';
   line-height: 1.6;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 h1, h2, h3 {
-  font-family: 'Kode Mono', monospace;
+  font-family: 'jbmono';
   font-weight: 900;
 }
 
