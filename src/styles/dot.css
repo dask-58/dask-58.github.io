@@ -5,8 +5,8 @@ html.dark {
 }
 
 html:not(.dark) {
-  --dot-bg-color: #ffffff;
-  --dot-color: #a5aeb850;
+  --dot-bg-color: #fbfafa;
+  --dot-color: #b7bbbf50;
   --dot-mask-color: #ffffff;
 }
 
