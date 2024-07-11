@@ -12,6 +12,7 @@
     "release": "bumpp"
   },
   "dependencies": {
+    "@astro-community/astro-embed-twitter": "^0.5.4",
     "@astrojs/check": "^0.8.0",
     "@astrojs/mdx": "^3.1.2",
     "@astrojs/rss": "^4.0.7",

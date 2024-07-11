@@ -1,11 +1,12 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro'
 import siteConfig from '@/site-config'
+import { Tweet } from '@astro-community/astro-embed-twitter'
 ---
 
 <BaseLayout description={siteConfig.description}>
   <article class="prose">
-    <h1 class="text-title">Dhruv Koli ⚡️.</h1>
+    <h1 class="text-title">Dhruv Koli ⚡️</h1>
     <p>Competitive Programmer && Sophomore CSE at iiit dwd.</p>
     <p>
       This is my 🏡 residence on the web. If you like this, please consider
@@ -17,6 +18,11 @@ import siteConfig from '@/site-config'
         href="https://antfu.me/">Anthony Fu</a
       > for the inspiration.
     </p>
+
+    <p>Check my posts here ➡️ <a href="/blog">All posts.</a></p>
+
+    <p>Here's my footballing tier list.</p>
+    <img src="/tier.jpg" />
 
     <hr class="hr-line" />
     <p>Find me on</p>
@@ -36,7 +42,7 @@ import siteConfig from '@/site-config'
       }
     </p>
     <p>
-      If you have any questions, please email me at
+      or mail me at
       <a
         prose-link
         aria-label={siteConfig.email}
@@ -46,4 +52,13 @@ import siteConfig from '@/site-config'
       </a>.
     </p>
   </article>
+  <style>
+    .twitter-tweet {
+      background: floralwhite;
+      color: darkblue;
+      font-family: cursive;
+      font-size: 1.25rem;
+      border: 0;
+    }
+  </style>
 </BaseLayout>
