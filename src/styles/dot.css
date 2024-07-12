@@ -1,12 +1,12 @@
 html.dark {
-  --dot-bg-color: #0d1117;
-  --dot-color: #2f353c;
-  --dot-mask-color: #000000;
+  --dot-bg-color: #060707;
+  --dot-color: #246c49;
+  --dot-mask-color: #001f3f;
 }
 
 html:not(.dark) {
-  --dot-bg-color: #fbfafa;
-  --dot-color: #b7bbbf50;
+  --dot-bg-color: #e2e6f6;
+  --dot-color: #597cab;
   --dot-mask-color: #ffffff;
 }
 
