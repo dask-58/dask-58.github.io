@@ -8,7 +8,7 @@ export const projectData: ProjectData = [
         text: 'Erudite',
         description: 'Ai chat bot built with Google Gemini API.',
         icon: 'i-carbon-campsite',
-        href: 'htttps://dask-58.github.io/erudite',
+        href: 'https://dask-58.github.io/erudite',
       },
       {
         text: '[ . ] Files',
