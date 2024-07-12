@@ -6,7 +6,6 @@ import ListProjects from '@/components/ListProjects.vue'
 
 <BaseLayout title="Projects" description="List of projects that I am proud of">
   <h1 class="mb-10 text-title">Projects</h1>
-  <button class="back-button" @click="window.history.back()">Back</button>
   <div mb-16 sm:mb-24>
     {
       projectData.length > 0 && (
@@ -26,46 +25,3 @@ import ListProjects from '@/components/ListProjects.vue'
     }
   </div>
 </BaseLayout>
-
-<style>
-  .back-button {
-    display: inline-block;
-    margin-bottom: 1rem;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    color: #ffffff;
-    background-color: #007bff; /* Blue background for light mode */
-    border: none;
-    border-radius: 0.25rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-
-  .back-button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-  }
-
-  html.dark .back-button {
-    background-color: #444; /* Dark background for dark mode */
-  }
-
-  html.dark .back-button:hover {
-    background-color: #666; /* Lighter background on hover for dark mode */
-  }
-
-  .project-title {
-    font-size: 3.2em;
-    font-weight: bold;
-    position: absolute;
-    top: 0;
-    color: #333; /* Default color for light mode */
-    text-stroke: 1.5px #aaa;
-    opacity: 0.35;
-  }
-
-  html.dark .project-title {
-    color: #ddd; /* Lighter color for dark mode */
-    text-stroke: 1.5px #444;
-    opacity: 0.5; /* Increased opacity for better visibility */
-  }
-</style>

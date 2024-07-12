@@ -4,6 +4,10 @@
 }
 .prose a {
   --at-apply: prose-link;
+  color: #0073e6;
+}
+html.dark .prose a {
+  color: #4ba1ff;
 }
 .prose strong {
   font-weight: 600;

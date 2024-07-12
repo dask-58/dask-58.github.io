@@ -4,7 +4,7 @@ export const siteConfig = {
   subtitle: 'Competitive Programmer | IIIT Dharwad',
   description: 'Dhruv\'s personal webpage.',
   image: {
-    src: '/dhruv.jpg',
+    src: '/LOGO.jpg',
     alt: 'Website Main Image',
   },
   email: 'googldhruv@gmail.com',
@@ -34,7 +34,7 @@ export const siteConfig = {
   ],
   header: {
     logo: {
-      src: '/dhruv.jpg',
+      src: '/LOGO.jpg',
       alt: 'Logo Image',
     },
     navLinks: [
