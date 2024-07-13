@@ -67,7 +67,7 @@ export const siteConfig = {
         href: '/posts-props',
       },
       {
-        text: 'GitHub Repository',
+        text: 'Source Code',
         href: 'https://github.com/dask-58/dask-58.github.io',
       },
     ],
