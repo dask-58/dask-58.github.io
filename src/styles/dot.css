@@ -1,13 +1,22 @@
 html.dark {
   --dot-bg-color: #060707;
-  --dot-color: #246c49;
+  --dot-color: #197e79;
   --dot-mask-color: #001f3f;
 }
 
 html:not(.dark) {
   --dot-bg-color: #e2e6f6;
-  --dot-color: #597cab;
+  --dot-color: #f311d4;
   --dot-mask-color: #ffffff;
+}
+
+@keyframes moveDots {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 24px 24px;
+  }
 }
 
 .bg-dot::before {
@@ -20,5 +29,6 @@ html:not(.dark) {
     var(--dot-color);
   background-position: center center;
   background-size: 24px 24px;
-  mask-image: linear-gradient(0deg, transparent 5%, var(--dot-mask-color));
+  mask-image: linear-gradient(1deg, transparent 5%, var(--dot-mask-color));
+  animation: moveDots 5s infinite linear;
 }
