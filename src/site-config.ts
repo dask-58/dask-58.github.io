@@ -70,6 +70,14 @@ export const siteConfig = {
         text: 'Source Code',
         href: 'https://github.com/dask-58/dask-58.github.io',
       },
+      {
+        text: 'Buy me a Coffee',
+        href: 'https://buymeacoffee.com/dask_58',
+      },
+      {
+        text: 'Face Reveal 🙋🏻‍♂️',
+        href: 'https://t.ly/HI5A1',
+      },
     ],
   },
 }
