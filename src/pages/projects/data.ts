@@ -7,13 +7,13 @@ export const projectData: ProjectData = [
       {
         text: 'Erudite',
         description: 'Ai chat bot built with Google Gemini API.',
-        icon: 'i-carbon-campsite',
+        icon: 'i-carbon-ai',
         href: 'https://dask-58.github.io/erudite',
       },
       {
         text: '[ . ] Files',
         description: 'My dot files',
-        icon: 'i-carbon-campsite',
+        icon: 'i-carbon-code',
         href: 'https://github.com/dask-58/dot-files',
       },
     ],
@@ -24,7 +24,7 @@ export const projectData: ProjectData = [
       {
         text: 'Spend Elon Money',
         description: 'Simulate spending the money of the richest man on Earth; as you wish!',
-        icon: 'i-carbon-campsite',
+        icon: 'i-carbon-currency',
         href: 'https://dask-58.github.io/spendelonmoney',
       },
     ],
