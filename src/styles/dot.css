@@ -13,9 +13,23 @@ html:not(.dark) {
 @keyframes moveDots {
   0% {
     background-position: 0 0;
+    opacity: 0.8;
+  }
+  25% {
+    background-position: 6px 6px;
+    opacity: 0.9;
+  }
+  50% {
+    background-position: 12px 12px;
+    opacity: 1;
+  }
+  75% {
+    background-position: 18px 18px;
+    opacity: 0.9;
   }
   100% {
     background-position: 24px 24px;
+    opacity: 0.8;
   }
 }
 

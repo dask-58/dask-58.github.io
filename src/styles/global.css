@@ -44,8 +44,7 @@ article {
 
 .prose-link i {
   --at-apply: text-sm mr-1;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
 }
 
 ::view-transition-old(root),
