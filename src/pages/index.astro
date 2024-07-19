@@ -1,12 +1,18 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro'
 import siteConfig from '@/site-config'
+import SpotifyPlaylist from '../components/Spotify.vue'
 // import { Tweet } from '@astro-community/astro-embed-twitter'
 ---
 
+<link
+  href="https://api.fontshare.com/v2/css?f[]=jet-brains-mono@500&f[]=tabular@700&display=swap"
+  rel="stylesheet"
+/>
+
 <BaseLayout description={siteConfig.description}>
   <article class="prose">
-    <h1 class="text-title">Dhruv Koli ⚡️</h1>
+    <h1 class="text-title, font-tabular">Dhruv Koli ⚡</h1>
     <p>Competitive Programmer && CS sophomore.</p>
     <p>
       This is the 76th version overall and 5th build of my website. I have tried
@@ -15,10 +21,12 @@ import siteConfig from '@/site-config'
       website.
     </p>
     <p>🐐 messi fan.</p>
+    <p>Here is what I listen to get back in late 2000's.(Thanks to Jas ㋡)</p>
+    <SpotifyPlaylist />
     <p>
       Thanks to <a href="https://kaivanwong.me/">Kaivan Wong</a> and <a
         href="https://antfu.me/">Anthony Fu</a
-      > for the inspiration.
+      > for the inspiration ㋡.
     </p>
 
     <p>Check my posts here ➡️ <a href="/blog">All posts.</a></p>

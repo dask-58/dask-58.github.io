@@ -42,6 +42,7 @@ export default defineConfig({
       fonts: {
         sans: 'Inter:400,600,800',
         mono: 'DM Mono:400,600',
+        tabular: 'Tabular:400,600,800',
       },
     }),
   ],
