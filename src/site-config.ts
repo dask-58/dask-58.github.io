@@ -83,3 +83,4 @@ export const siteConfig = {
 }
 
 export default siteConfig
+// to ignore .vscode
