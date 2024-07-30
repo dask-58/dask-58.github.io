@@ -5,7 +5,7 @@ export const siteConfig = {
   description: 'Dhruv\'s personal webpage.',
   image: {
     src: '/LOGO.jpg',
-    alt: 'Website Main Image',
+    alt: 'LOGO',
   },
   email: 'googldhruv@gmail.com',
   socialLinks: [
@@ -16,7 +16,7 @@ export const siteConfig = {
       header: 'i-ri-github-line',
     },
     {
-      text: 'Twitter',
+      text: 'Twitter (X)',
       href: 'https://x.com/dask_58',
       icon: 'i-simple-icons-x',
       header: 'i-ri-twitter-x-line',
@@ -83,4 +83,3 @@ export const siteConfig = {
 }
 
 export default siteConfig
-// to ignore .vscode
