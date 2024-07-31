@@ -12,21 +12,22 @@ import {
 export default defineConfig({
   shortcuts: [
     {
-      'bg-main': 'bg-hex-eef5fc dark:bg-hex-0d1117',
-      'text-main': 'text-hex-555555 dark:text-hex-bbbbbb',
-      'text-link': 'text-dark dark:text-white ',
-      'border-main': 'border-truegray-300 dark:border-truegray-600',
+      'bg-main': 'bg-hex-eef5fc dark:bg-black',
+      'text-main': 'text-black dark:text-white',
+      'text-link': 'text-black dark:text-white',
+      'border-main': 'border-black dark:border-white',
     },
     {
-      'text-title': 'text-link text-4xl font-800',
-      'nav-link': 'text-link opacity-70 hover:opacity-100 transition-opacity duration-200 cursor-pointer',
-      'prose-link': 'text-link text-nowrap cursor-pointer border-b-1 !border-opacity-30 hover:!border-opacity-100 border-neutral-500 hover:border-truegray-600 dark:border-neutral-500 hover:dark:border-truegray-400 transition-border-color duration-200 decoration-none',
-      'container-link': 'p-2 opacity-60 hover:opacity-100 cursor-pointer hover:bg-truegray-500 !bg-opacity-10 transition-colors transition-opacity duration-200',
+      'text-title': 'text-black dark:text-hex-eef5fc text-4xl font-800', // Title text styling
+      'nav-link': 'text-black dark:text-white opacity-70 hover:opacity-100 transition-opacity duration-200 cursor-pointer', // Navigation link styling
+      'prose-link': 'text-black dark:text-white text-nowrap cursor-pointer border-b-1 !border-opacity-30 hover:!border-opacity-100 border-black dark:border-white hover:dark:border-white transition-border-color duration-200 decoration-none', // Prose link styling
+      'container-link': 'p-2 opacity-60 hover:opacity-100 cursor-pointer hover:bg-black dark:hover:bg-white !bg-opacity-10 transition-colors transition-opacity duration-200', // Container link styling
     },
     {
-      'hr-line': 'w-14 mx-auto my-8 border-solid border-1px !border-truegray-200 !dark:border-truegray-800',
+      'hr-line': 'w-14 mx-auto my-8 border-solid border-1px !border-black !dark:border-white', // Horizontal line styling
     },
   ],
+
   presets: [
     presetUno(),
     presetAttributify(),

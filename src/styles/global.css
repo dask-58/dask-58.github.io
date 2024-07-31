@@ -4,7 +4,7 @@ html.dark .astro-code span {
   background-color: #1e252c !important;
   font-style: var(--shiki-dark-font-style) !important;
   font-weight: var(--shiki-dark-font-weight) !important;
-  font-family: 'Paqutio', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   text-decoration: var(--shiki-dark-text-decoration) !important;
 }
 
@@ -21,7 +21,7 @@ html:not(.dark) {
 }
 
 #nprogress .bar {
-  background: #888;
+  background: #fcfafa;
   opacity: 0.75;
   position: fixed;
   z-index: 999;
