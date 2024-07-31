@@ -7,8 +7,6 @@ My portfolio featuring blogs built in astro.
 ![GitHub top language](https://img.shields.io/github/languages/top/dask-58/dask-58.github.io)
 ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/dask_58)
 
-
-
 ## Run Locally
 
 Clone the project
@@ -34,7 +32,6 @@ Start the server
 ```bash
   npm run dev
 ```
-
 
 ## Contributing
 
