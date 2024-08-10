@@ -6,3 +6,7 @@ tag: Trip
 ---
 
 In progress.
+
+Demo latex
+
+$\pi \approx 3.14159$

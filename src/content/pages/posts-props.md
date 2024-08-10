@@ -9,7 +9,7 @@ Props in blog:
 | title       | Yes  | Title of the article.                      |
 | description | Yes  | Description of the article.                |
 | image       | No   | Hero image of the article.                 |
-| date        | No   | The publication date of the article.       |
+| date        | No (Yes Recommended)   | The publication date of the article.       |
 | duration    | No   | The estimated viewing time of the article. |
 | lang        | No   | Article language, default en-US.           |
 | redirect    | No   | The redirected address of the article.     |

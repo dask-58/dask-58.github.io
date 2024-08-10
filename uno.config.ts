@@ -12,22 +12,21 @@ import {
 export default defineConfig({
   shortcuts: [
     {
-      'bg-main': 'bg-hex-eef5fc dark:bg-black',
-      'text-main': 'text-black dark:text-white',
-      'text-link': 'text-black dark:text-white',
-      'border-main': 'border-black dark:border-white',
+      'bg-main': 'bg-hex-fffffff dark:bg-hex-1a0f00',
+      'text-main': 'text-hex-4d3319 dark:text-hex-ECE2D9FF',
+      'text-link': 'text-hex-b33000 dark:text-hex-ff8c66',
+      'border-main': 'border-hex-d9a64e dark:border-hex-ffd700',
     },
     {
-      'text-title': 'text-black dark:text-hex-eef5fc text-4xl font-800', // Title text styling
-      'nav-link': 'text-black dark:text-white opacity-70 hover:opacity-100 transition-opacity duration-200 cursor-pointer', // Navigation link styling
-      'prose-link': 'text-black dark:text-white text-nowrap cursor-pointer border-b-1 !border-opacity-30 hover:!border-opacity-100 border-black dark:border-white hover:dark:border-white transition-border-color duration-200 decoration-none', // Prose link styling
-      'container-link': 'p-2 opacity-60 hover:opacity-100 cursor-pointer hover:bg-black dark:hover:bg-white !bg-opacity-10 transition-colors transition-opacity duration-200', // Container link styling
+      'text-title': 'text-hex-b33000 dark:text-hex-ffd700 text-4xl font-900', // Title text styling
+      'nav-link': 'text-hex-4d3319 dark:text-hex-000000 opacity-80 hover:opacity-100 transition-opacity duration-200 cursor-pointer',
+      'prose-link': 'text-hex-b33000 dark:text-hex-ff8c66 text-nowrap cursor-pointer border-b-1 !border-opacity-30 hover:!border-opacity-100 border-hex-b33000 dark:border-hex-ff8c66 hover:dark:border-hex-ff8c66 transition-border-color duration-200 decoration-none', // Prose link styling
+      'container-link': 'p-2 opacity-70 hover:opacity-100 cursor-pointer hover:bg-hex-ffd700 dark:hover:bg-hex-b33000 !bg-opacity-20 transition-colors transition-opacity duration-200', // Container link styling
     },
     {
-      'hr-line': 'w-14 mx-auto my-8 border-solid border-1px !border-black !dark:border-white', // Horizontal line styling
+      'hr-line': 'w-14 mx-auto my-8 border-solid border-1px !border-hex-d9a64e !dark:border-hex-ffd700', // Horizontal line styling
     },
   ],
-
   presets: [
     presetUno(),
     presetAttributify(),
@@ -42,7 +41,7 @@ export default defineConfig({
     presetWebFonts({
       fonts: {
         sans: 'Inter:400,600,800',
-        mono: 'DM Mono:400,600',
+        mono: 'Mono:400,600',
         grotesk: 'Space Grotesk:400,600,800',
       },
     }),
