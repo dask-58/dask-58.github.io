@@ -19,7 +19,7 @@ export default defineConfig({
     },
     {
       'text-title': 'text-hex-b33000 dark:text-hex-ffd700 text-4xl font-900', // Title text styling
-      'nav-link': 'text-hex-4d3319 dark:text-hex-000000 opacity-80 hover:opacity-100 transition-opacity duration-200 cursor-pointer',
+      'nav-link': 'text-hex-4d3319 dark:text-hex-ece2d9ff opacity-80 hover:opacity-100 transition-opacity duration-200 cursor-pointer',
       'prose-link': 'text-hex-b33000 dark:text-hex-ff8c66 text-nowrap cursor-pointer border-b-1 !border-opacity-30 hover:!border-opacity-100 border-hex-b33000 dark:border-hex-ff8c66 hover:dark:border-hex-ff8c66 transition-border-color duration-200 decoration-none', // Prose link styling
       'container-link': 'p-2 opacity-70 hover:opacity-100 cursor-pointer hover:bg-hex-ffd700 dark:hover:bg-hex-b33000 !bg-opacity-20 transition-colors transition-opacity duration-200', // Container link styling
     },
