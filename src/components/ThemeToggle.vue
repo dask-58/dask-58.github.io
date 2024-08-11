@@ -33,8 +33,8 @@ function toggleTheme(event: MouseEvent) {
         clipPath: isDark.value ? [...clipPath].reverse() : clipPath,
       },
       {
-        duration: 400,
-        easing: 'ease-in',
+        duration: 500,
+        easing: 'ease-in-out',
         pseudoElement: isDark.value
           ? '::view-transition-old(root)'
           : '::view-transition-new(root)',

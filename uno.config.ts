@@ -12,19 +12,19 @@ import {
 export default defineConfig({
   shortcuts: [
     {
-      'bg-main': 'bg-hex-fffffff dark:bg-hex-1a0f00',
-      'text-main': 'text-hex-4d3319 dark:text-hex-ECE2D9FF',
-      'text-link': 'text-hex-b33000 dark:text-hex-ff8c66',
-      'border-main': 'border-hex-d9a64e dark:border-hex-ffd700',
+      'bg-main': 'bg-hex-f0f4fc dark:bg-hex-0b0e12',
+      'text-main': 'text-hex-333333 dark:text-hex-d4d4d4',
+      'text-link': 'text-hex-0b0e12 dark:text-hex-f0f4fc',
+      'border-main': 'border-truegray-300 dark:border-truegray-700',
     },
     {
-      'text-title': 'text-hex-b33000 dark:text-hex-ffd700 text-4xl font-900', // Title text styling
-      'nav-link': 'text-hex-4d3319 dark:text-hex-ece2d9ff opacity-80 hover:opacity-100 transition-opacity duration-200 cursor-pointer',
-      'prose-link': 'text-hex-b33000 dark:text-hex-ff8c66 text-nowrap cursor-pointer border-b-1 !border-opacity-30 hover:!border-opacity-100 border-hex-b33000 dark:border-hex-ff8c66 hover:dark:border-hex-ff8c66 transition-border-color duration-200 decoration-none', // Prose link styling
-      'container-link': 'p-2 opacity-70 hover:opacity-100 cursor-pointer hover:bg-hex-ffd700 dark:hover:bg-hex-b33000 !bg-opacity-20 transition-colors transition-opacity duration-200', // Container link styling
+      'text-title': 'text-link text-4xl font-800',
+      'nav-link': 'text-link opacity-80 hover:opacity-100 transition-opacity duration-200 cursor-pointer',
+      'prose-link': 'text-link text-nowrap cursor-pointer border-b-1 !border-opacity-30 hover:!border-opacity-100 border-neutral-600 hover:border-truegray-600 dark:border-neutral-600 hover:dark:border-truegray-600 transition-border-color duration-200 decoration-none',
+      'container-link': 'p-2 opacity-70 hover:opacity-100 cursor-pointer hover:bg-truegray-800 !bg-opacity-20 transition-colors transition-opacity duration-200',
     },
     {
-      'hr-line': 'w-14 mx-auto my-8 border-solid border-1px !border-hex-d9a64e !dark:border-hex-ffd700', // Horizontal line styling
+      'hr-line': 'w-14 mx-auto my-8 border-solid border-1px !border-truegray-600 !dark:border-truegray-300',
     },
   ],
   presets: [

@@ -55,7 +55,7 @@ export const siteConfig = {
   page: {
     blogLinks: [
       {
-        text: 'Blog',
+        text: 'All Posts',
         href: '/blog',
       },
     ],
@@ -75,7 +75,7 @@ export const siteConfig = {
         href: 'https://buymeacoffee.com/dask_58',
       },
       {
-        text: 'Face Reveal 🙋🏻‍♂️',
+        text: 'Αποκάλυψη προσώπου 🙋🏻‍♂️',
         href: 'https://t.ly/HI5A1',
       },
     ],

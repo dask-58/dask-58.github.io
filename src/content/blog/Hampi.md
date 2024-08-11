@@ -1,10 +1,34 @@
 ---
 title: Hampi in Photos
-description: Features some of the cool pictures clicked by me during my visit to the Hampi Unesco World Heritage Sites.
+description: Features some of the cool pictures clicked by me during my visit to the Hampi UNESCO World Heritage Sites.
 date: 2024-07-28
 tag: photos
 duration: 2min
 ---
-
-Check :
-<blockquote class="twitter-tweet"><p lang="zxx" dir="ltr"><a href="https://t.co/j1lfNAZ1QD">pic.twitter.com/j1lfNAZ1QD</a></p>&mdash; no context memes (@weirddalle) <a href="https://twitter.com/weirddalle/status/1795147958557536658?ref_src=twsrc%5Etfw">May 27, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+### Some clicks by DHRUV
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px;">
+  <div>
+    <img src="/public/image1.jpg" alt="Description of image 1" style="width: 100%; height: auto;">
+  </div>
+  <div>
+    <img src="/public/image2.jpg" alt="Description of image 2" style="width: 100%; height: auto;">
+  </div>
+  <div>
+    <img src="/public/image3.jpg" alt="Description of image 3" style="width: 100%; height: auto;">
+  </div>
+<div>
+    <img src="/public/image4.jpg" alt="Description of image 3" style="width: 100%; height: auto;">
+  </div>
+<div>
+    <img src="/public/image5.jpg" alt="Description of image 3" style="width: 100%; height: auto;">
+  </div>
+<div>
+    <img src="/public/image6.jpg" alt="Description of image 3" style="width: 100%; height: auto;">
+  </div>
+<div>
+    <img src="/public/image7.jpg" alt="Description of image 3" style="width: 100%; height: auto;">
+  </div>
+<div>
+    <img src="/public/image8.jpg" alt="Description of image 3" style="width: 100%; height: auto;">
+  </div>
+</div>

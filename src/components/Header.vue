@@ -92,7 +92,7 @@ function toggleNavDrawer() {
         </a>
       </nav>
       <div sm:hidden h-full flex items-center @click="toggleNavDrawer()">
-        <menu i-ri-menu-2-fill />
+        <menu i-ri-menu-fill />
       </div>
     </div>
     <div class="flex gap-x-6">
