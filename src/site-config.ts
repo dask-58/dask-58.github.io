@@ -39,10 +39,6 @@ export const siteConfig = {
     },
     navLinks: [
       {
-        text: 'Home',
-        href: 'https://dask-58.github.io',
-      },
-      {
         text: 'Blog',
         href: '/blog',
       },
