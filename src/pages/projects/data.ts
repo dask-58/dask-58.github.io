@@ -11,8 +11,8 @@ export const projectData: ProjectData = [
         href: 'https://dask-58.github.io/erudite',
       },
       {
-        text: '[ . ] Files',
-        description: 'My dot files',
+        text: '[ . ] Files (ARCHIVED TEMPORARILY)',
+        description: 'My dot files, archived this repo temporarily. This will be back soon once I start using stow.',
         icon: 'i-carbon-code',
         href: 'https://github.com/dask-58/dot-files',
       },
