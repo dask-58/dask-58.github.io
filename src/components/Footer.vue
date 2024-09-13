@@ -35,7 +35,7 @@ onUnmounted(() => {
     </div>
     <div flex>
       <a nav-link href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>
-      <span op-70>&nbsp;&nbsp;&copy;&nbsp;&nbsp;{{ currentTime.getFullYear() }}&nbsp;&nbsp;{{ siteConfig.author }}. last refresh {{ currentTime.toLocaleTimeString() }}</span>
+      <span op-70>&nbsp;&nbsp;&copy;&nbsp;&nbsp;{{ currentTime.getFullYear() }}&nbsp;&nbsp;{{ siteConfig.author }}. last deployment {{ currentTime.getHours() }}:{{ currentTime.getMinutes() }}:{{ currentTime.getSeconds() }}</span>
     </div>
   </footer>
 </template>
