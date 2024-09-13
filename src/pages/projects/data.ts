@@ -6,7 +6,7 @@ export const projectData: ProjectData = [
     projects: [
       {
         text: 'Erudite',
-        description: 'Ai chat bot built with Google Gemini API.',
+        description: 'Ai chat bot built with Google Gemini API (ERUDITE 2.0 soon ... ).',
         icon: 'i-carbon-ai',
         href: 'https://dask-58.github.io/erudite',
       },

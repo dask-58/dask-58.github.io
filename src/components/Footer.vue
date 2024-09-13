@@ -1,6 +1,21 @@
 <script lang="ts" setup>
+import { onMounted, onUnmounted, ref } from 'vue'
 import siteConfig from '@/site-config'
 import { getLinkTarget } from '@/utils/link'
+
+const currentTime = ref(new Date())
+let timer: number | null = null
+
+onMounted(() => {
+  timer = setInterval(() => {
+    currentTime.value = new Date()
+  }, 1000)
+})
+
+onUnmounted(() => {
+  if (timer)
+    clearInterval(timer)
+})
 </script>
 
 <template>
@@ -8,7 +23,9 @@ import { getLinkTarget } from '@/utils/link'
     <div v-if="siteConfig.footer.navLinks && siteConfig.footer.navLinks.length > 0" class="flex flex-wrap gap-4">
       <template v-for="(link, index) in siteConfig.footer.navLinks" :key="link.text">
         <a
-          :aria-label="`${link.text}`" :target="getLinkTarget(link.href)" class="nav-link flex items-center"
+          :aria-label="`${link.text}`"
+          :target="getLinkTarget(link.href)"
+          class="nav-link flex items-center"
           :href="link.href"
         >
           {{ link.text }}
@@ -18,8 +35,7 @@ import { getLinkTarget } from '@/utils/link'
     </div>
     <div flex>
       <a nav-link href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>
-      <span op-70>&nbsp;&nbsp;&copy;&nbsp;&nbsp;{{ new Date().getFullYear() }}&nbsp;&nbsp;{{ siteConfig.author
-      }}.</span>
+      <span op-70>&nbsp;&nbsp;&copy;&nbsp;&nbsp;{{ currentTime.getFullYear() }}&nbsp;&nbsp;{{ siteConfig.author }}. last refresh {{ currentTime.toLocaleTimeString() }}</span>
     </div>
   </footer>
 </template>
