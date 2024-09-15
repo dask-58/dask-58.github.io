@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import { onMounted, onUnmounted, ref } from 'vue'
+import SysStatus from './SysStatus.vue'
 import siteConfig from '@/site-config'
 import { getLinkTarget } from '@/utils/link'
 
@@ -35,7 +36,10 @@ onUnmounted(() => {
     </div>
     <div flex>
       <a nav-link href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>
-      <span op-70>&nbsp;&nbsp;&copy;&nbsp;&nbsp;{{ currentTime.getFullYear() }}&nbsp;&nbsp;{{ siteConfig.author }}. last deployment {{ currentTime.getHours() }}:{{ currentTime.getMinutes() }}:{{ currentTime.getSeconds() }}</span>
+      <span op-70>&nbsp;&nbsp;&copy;&nbsp;&nbsp;{{ currentTime.getFullYear() }}&nbsp;&nbsp;{{ siteConfig.author }}. last deployment 15/09/2024 {{ currentTime.getHours() }}:{{ currentTime.getMinutes() }}:{{ currentTime.getSeconds() }} UTC</span>
+    </div>
+    <div>
+      <SysStatus />
     </div>
   </footer>
 </template>
