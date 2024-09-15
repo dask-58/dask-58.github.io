@@ -5,6 +5,12 @@ export const projectData: ProjectData = [
     title: '2024',
     projects: [
       {
+        text: 'Hermione (In progress)',
+        description: 'static binary version image (as of now), soon to be made user interactive so that image updates upon manipulation of data.',
+        icon: 'i-carbon-magic-wand-filled',
+        href: 'https://dask-58.github.io/hermione',
+      },
+      {
         text: 'Erudite',
         description: 'Ai chat bot built with Google Gemini API (ERUDITE 2.0 soon ... ).',
         icon: 'i-carbon-ai',

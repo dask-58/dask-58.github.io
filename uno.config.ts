@@ -53,6 +53,7 @@ export default defineConfig({
     'i-carbon-ai',
     'i-carbon-currency',
     'i-carbon-code',
+    'i-carbon-magic-wand-filled',
     'i-simple-icons-github',
     'i-simple-icons-x',
     'i-simple-icons-linkedin',
