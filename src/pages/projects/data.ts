@@ -35,4 +35,33 @@ export const projectData: ProjectData = [
       },
     ],
   },
+  {
+    title: 'CP Profiles',
+    projects: [
+      {
+        text: 'CodeForces',
+        description: 'Max Specialist (1421)',
+        icon: 'i-simple-icons-codeforces',
+        href: 'https://codeforces.com/profile/dask_58',
+      },
+      {
+        text: 'CodeChef',
+        description: 'Max 3 ★ (1721)',
+        icon: 'i-simple-icons-codechef',
+        href: 'https://www.codechef.com/users/dask_58',
+      },
+      {
+        text: 'LeetCode',
+        description: 'Top 6.8% (1838)',
+        icon: 'i-simple-icons-leetcode',
+        href: 'https://leetcode.com/u/eruditesurgery/',
+      },
+      {
+        text: 'HackerRank',
+        description: 'hr profile',
+        icon: 'i-simple-icons-hackerrank',
+        href: 'https://www.hackerrank.com/profile/googldhruv',
+      },
+    ],
+  },
 ]

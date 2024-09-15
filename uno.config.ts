@@ -58,5 +58,9 @@ export default defineConfig({
     'i-simple-icons-instagram',
     'i-ri-github-line',
     'i-ri-twitter-x-line',
+    'i-simple-icons-codeforces',
+    'i-simple-icons-codechef',
+    'i-simple-icons-leetcode',
+    'i-simple-icons-hackerrank',
   ],
 })
