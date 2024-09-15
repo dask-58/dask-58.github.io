@@ -48,8 +48,6 @@ export default defineConfig({
   ],
   transformers: [transformerDirectives(), transformerVariantGroup()],
   safelist: [
-    'i-ri-file-list-2-line',
-    'i-carbon-campsite',
     'i-carbon-ai',
     'i-carbon-currency',
     'i-carbon-code',
@@ -58,7 +56,6 @@ export default defineConfig({
     'i-simple-icons-x',
     'i-simple-icons-linkedin',
     'i-simple-icons-instagram',
-    'i-simple-icons-youtube',
     'i-ri-github-line',
     'i-ri-twitter-x-line',
   ],

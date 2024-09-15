@@ -16,7 +16,3 @@ export default {
     loading="lazy"
   />
 </template>
-
-  <style scoped>
-  /* Add any necessary styles here */
-</style>

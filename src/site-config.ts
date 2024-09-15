@@ -1,6 +1,6 @@
 export const siteConfig = {
   author: 'Dhruv',
-  title: 'Dhruv Koli | Home',
+  title: 'Dhruv Koli',
   subtitle: 'Competitive Programmer | IIIT Dharwad',
   description: 'Dhruv\'s personal webpage.',
   image: {
