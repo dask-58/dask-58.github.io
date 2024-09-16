@@ -11,8 +11,8 @@ export const projectData: ProjectData = [
         href: 'https://dask-58.github.io/hermione',
       },
       {
-        text: 'Erudite',
-        description: 'Ai chat bot built with Google Gemini API (ERUDITE 2.0 soon ... ).',
+        text: 'Erudite (currently disabled (due to my stupid mistakes))',
+        description: 'will be back soon. Ai chat bot built with Google Gemini API (ERUDITE 2.0 soon ... ).',
         icon: 'i-carbon-ai',
         href: 'https://dask-58.github.io/erudite',
       },
@@ -36,7 +36,7 @@ export const projectData: ProjectData = [
     ],
   },
   {
-    title: 'CP Profiles',
+    title: 'Ojudges',
     projects: [
       {
         text: 'CodeForces',

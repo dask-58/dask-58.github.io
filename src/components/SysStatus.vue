@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      status: 'normal', // problem ?
+      status: 'problem', // problem ?
     }
   },
   computed: {
