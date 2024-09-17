@@ -52,7 +52,7 @@ export const projectData: ProjectData = [
       },
       {
         text: 'LeetCode',
-        description: 'Top 6.8% (1838)',
+        description: 'Top 6.2% (1838)',
         icon: 'i-simple-icons-leetcode',
         href: 'https://leetcode.com/u/eruditesurgery/',
       },
