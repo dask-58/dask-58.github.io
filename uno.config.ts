@@ -62,5 +62,6 @@ export default defineConfig({
     'i-simple-icons-codechef',
     'i-simple-icons-leetcode',
     'i-simple-icons-hackerrank',
+    'i-simple-icons-kaggle',
   ],
 })

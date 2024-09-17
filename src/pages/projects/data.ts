@@ -57,6 +57,12 @@ export const projectData: ProjectData = [
         href: 'https://leetcode.com/u/eruditesurgery/',
       },
       {
+        text: 'Kaggle',
+        description: 'my kaggle profile',
+        icon: 'i-simple-icons-kaggle',
+        href: 'https://www.kaggle.com/dask58',
+      },
+      {
         text: 'HackerRank',
         description: 'hr profile',
         icon: 'i-simple-icons-hackerrank',
