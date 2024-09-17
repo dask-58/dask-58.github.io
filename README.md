@@ -1,6 +1,6 @@
 # dask-58.github.io
 
-My portfolio featuring blogs built in astro.
+My personal webpage .
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 ![GitHub repo size](https://img.shields.io/github/repo-size/dask-58/dask-58.github.io)
