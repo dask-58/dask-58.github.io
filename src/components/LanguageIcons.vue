@@ -2,16 +2,12 @@
 import { ref } from 'vue'
 
 const languages = ref([
-  { name: 'C', icon: '/c.svg' },
-  { name: 'C++', icon: '/cpp.svg' },
-  { name: 'Python', icon: '/python.svg' },
-  { name: 'JavaScript', icon: '/javascript.svg' },
-  { name: 'TypeScript', icon: '/typescript.svg' },
-  { name: 'Vue.js', icon: '/vue.svg' },
-  { name: 'Astro.js', icon: '/astro.svg' },
-  { name: 'Lua', icon: '/lua.svg' },
-  { name: 'LaTeX', icon: '/latex.svg' },
-  { name: 'Bash', icon: '/bash.svg' },
+  { name: 'C', icon: './c.svg' },
+  { name: 'Python', icon: './python.svg' },
+  { name: 'JavaScript', icon: './javascript.svg' },
+  { name: 'TypeScript', icon: './typescript.svg' },
+  { name: 'Astro.js', icon: './astro.svg' },
+  { name: 'LaTeX', icon: './latex.svg' },
 ])
 </script>
 
