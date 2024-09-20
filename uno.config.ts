@@ -12,9 +12,9 @@ import {
 export default defineConfig({
   shortcuts: [
     {
-      'bg-main': 'bg-hex-ffffff dark:bg-hex-000000',
-      'text-main': 'text-hex-000000 dark:text-hex-ffffff',
-      'text-link': 'text-hex-000000 dark:text-hex-ffffff',
+      'bg-main': 'bg-hex-f0f4fc dark:bg-hex-0b0e12',
+      'text-main': 'text-hex-333333 dark:text-hex-d4d4d4',
+      'text-link': 'text-hex-0b0e12 dark:text-hex-f0f4fc',
       'border-main': 'border-truegray-300 dark:border-truegray-700',
     },
     {
@@ -63,14 +63,5 @@ export default defineConfig({
     'i-simple-icons-leetcode',
     'i-simple-icons-hackerrank',
     'i-simple-icons-kaggle',
-    'i-simple-icons-c',
-    'i-simple-icons-cplusplus',
-    'i-simple-icons-python',
-    'i-simple-icons-java',
-    'i-simple-icons-javascript',
-    'i-simple-icons-typescript',
-    'i-simple-icons-lua',
-    'i-simple-icons-latex',
-    'i-simple-icons-vue',
   ],
 })
