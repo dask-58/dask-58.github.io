@@ -46,6 +46,10 @@ export const siteConfig = {
         text: 'Work',
         href: '/projects',
       },
+      {
+        text: 'Resume',
+        href: 'https://dask-58.github.io/resume',
+      },
     ],
   },
   page: {
