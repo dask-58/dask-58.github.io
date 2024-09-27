@@ -56,6 +56,7 @@ export default defineConfig({
     'i-simple-icons-x',
     'i-simple-icons-linkedin',
     'i-simple-icons-instagram',
+    'i-simple-icons-rust',
     'i-ri-github-line',
     'i-ri-twitter-x-line',
     'i-simple-icons-codeforces',

@@ -5,6 +5,12 @@ export const projectData: ProjectData = [
     title: '2024',
     projects: [
       {
+        text: 'dashrs',
+        description: 'Rust CLI to view system stats',
+        icon: 'i-simple-icons-rust',
+        href: 'https://github.com/dask-58/dashrs',
+      },
+      {
         text: 'Hermione (In progress)',
         description: 'static binary version image (as of now), soon to be made user interactive so that image updates upon manipulation of data.',
         icon: 'i-carbon-magic-wand-filled',
