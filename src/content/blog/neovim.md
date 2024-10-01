@@ -10,4 +10,4 @@ duration: TBD
 
 ## My neovim configuration
 
-![alt text](https://github.com/dask-58/dask-58.github.io/blob/main/public/neovim.png)
+<img src="https://github.com/dask-58/dask-58.github.io/blob/main/public/neovim.png" alt="nvim" style="width: 100%; height: auto;">
