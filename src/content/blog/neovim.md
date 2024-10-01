@@ -10,4 +10,4 @@ duration: TBD
 
 ## My neovim configuration
 
-![alt text](/public/neovim.png)
+![alt text](https://github.com/dask-58/dask-58.github.io/blob/main/public/neovim.png)
