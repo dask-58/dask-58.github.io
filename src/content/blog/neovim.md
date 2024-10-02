@@ -8,6 +8,8 @@ duration: TBD
 
 # GUIDE DROPPING SOON
 
-## My neovim configuration
+## Screenshots
 
-<img src="https://github.com/dask-58/dask-58.github.io/blob/main/public/neovim.png" alt="nvim" style="width: 100%; height: auto;">
+<img src="https://raw.githubusercontent.com/dask-58/dask-58.github.io/refs/heads/main/public/neovim.png" alt="nvim" style="width: 100%; height: auto;">
+
+To be updated...
