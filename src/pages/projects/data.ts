@@ -5,6 +5,12 @@ export const projectData: ProjectData = [
     title: '2024',
     projects: [
       {
+        text: 'duckOdu',
+        description: 'A very basic Todo app in Swift for MacOs',
+        icon: 'i-simple-icons-swift',
+        href: 'https://github.com/dask-58/duckOdu',
+      },
+      {
         text: 'dashrs',
         description: 'Rust CLI to view system stats',
         icon: 'i-simple-icons-rust',
@@ -12,20 +18,20 @@ export const projectData: ProjectData = [
       },
       {
         text: 'Hermione (In progress)',
-        description: 'static binary version image (as of now), soon to be made user interactive so that image updates upon manipulation of data.',
-        icon: 'i-carbon-magic-wand-filled',
+        description: 'cant reveal now',
+        icon: 'i-simple-icons-javascript',
         href: 'https://dask-58.github.io/hermione',
       },
       {
-        text: 'Erudite (currently disabled (due to my stupid mistakes))',
-        description: 'will be back soon. Ai chat bot built with Google Gemini API (ERUDITE 2.0 soon ... ).',
-        icon: 'i-carbon-ai',
+        text: 'Erudite (currently disabled)',
+        description: 'will be back (ERUDITE 2.0 soon ... ).',
+        icon: 'i-simple-icons-react',
         href: 'https://dask-58.github.io/erudite',
       },
       {
         text: '[ . ] Files',
         description: 'My dot files.',
-        icon: 'i-carbon-code',
+        icon: 'i-simple-icons-lua',
         href: 'https://github.com/dask-58/dot',
       },
     ],
