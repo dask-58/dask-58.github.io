@@ -60,7 +60,7 @@ function getYear(date: Date | string | number) {
               {{ post.data.title }}
             </span>
           </div>
-          <div opacity-50 text-sm ws-nowrap flex="~ gap-2 items-center">
+          <div opacity-80 text-sm ws-nowrap flex="~ gap-2 items-center">
             <i v-if="post.data.redirect" text-base i-ri-external-link-line />
             <i v-if="post.data.recording || post.data.video" text-base i-ri:film-line />
             <time v-if="post.data.date" :datetime="getDate(post.data.date)">{{ post.data.date.split(',')[0] }}</time>
@@ -69,7 +69,7 @@ function getYear(date: Date | string | number) {
             <span v-if="post.data.lang && post.data.lang.includes('zh')">· 中文</span>
           </div>
         </div>
-        <div opacity-50 text-sm>{{ post.data.description }}</div>
+        <div opacity-80 text-sm>{{ post.data.description }}</div>
       </a>
     </li>
   </ul>

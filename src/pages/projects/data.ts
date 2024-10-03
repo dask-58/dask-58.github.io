@@ -42,7 +42,7 @@ export const projectData: ProjectData = [
       {
         text: 'Spend Elon Money',
         description: 'Simulate spending the money of the richest man on Earth; as you wish!',
-        icon: 'i-carbon-currency',
+        icon: 'i-simple-icons-javascript',
         href: 'https://dask-58.github.io/spendelonmoney',
       },
     ],

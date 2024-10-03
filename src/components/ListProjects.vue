@@ -22,8 +22,8 @@ defineProps<{
           <i text-4xl inline-block :class="project.icon || 'i-carbon-unknown'" />
         </div>
         <div font-normal lh-tight>
-          <div text-lg hover:text-main>{{ project.text }}</div>
-          <div opacity-50 text-sm>{{ project.description }}</div>
+          <div color-black dark:color-white text-lg hover:text-main>{{ project.text }}</div>
+          <div color-black dark:color-white opacity-80 text-sm>{{ project.description }}</div>
         </div>
       </a>
     </li>

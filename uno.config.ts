@@ -49,7 +49,6 @@ export default defineConfig({
   transformers: [transformerDirectives(), transformerVariantGroup()],
   safelist: [
     'i-simple-icons-react',
-    'i-carbon-currency',
     'i-simple-icons-lua',
     'i-simple-icons-swift',
     'i-simple-icons-javascript',
