@@ -43,6 +43,7 @@ export default defineConfig({
         sans: 'Inter:400,600,800',
         mono: 'Mono:400,600',
         grotesk: 'Space Grotesk:400,600,800',
+        poppins: 'Poppins:400,600,800',
       },
     }),
   ],

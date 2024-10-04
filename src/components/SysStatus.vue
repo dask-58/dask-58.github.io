@@ -25,7 +25,7 @@ export default {
 <style scoped>
 .system-status {
   font-size: 0.75rem;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'poppins', serif;
   text-transform: uppercase;
 }
 
