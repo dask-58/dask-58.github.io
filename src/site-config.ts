@@ -13,7 +13,7 @@ export const siteConfig = {
       text: 'GitHub',
       href: 'https://github.com/dask-58',
       icon: 'i-simple-icons-github',
-      header: 'i-ri-github-line',
+      header: 'i-simple-icons-github',
     },
     {
       text: 'Twitter (X)',
