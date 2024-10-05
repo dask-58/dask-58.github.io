@@ -5,13 +5,7 @@ import siteConfig from '@/site-config'
 import { getLinkTarget } from '@/utils/link'
 
 const currentTime = ref(new Date())
-let timer: number | null = null
-
-onMounted(() => {
-  timer = setInterval(() => {
-    currentTime.value = new Date()
-  }, 1000)
-})
+const timer: number | null = null
 
 onUnmounted(() => {
   if (timer)
@@ -36,7 +30,7 @@ onUnmounted(() => {
     </div>
     <div flex>
       <a nav-link href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>
-      <span op-70>&nbsp;&nbsp;&copy;&nbsp;&nbsp;{{ currentTime.getFullYear() }}&nbsp;&nbsp;{{ siteConfig.author }}. last deployment 16/09/2024 {{ currentTime.getHours() }}:{{ currentTime.getMinutes() }}:{{ currentTime.getSeconds() }} UTC</span>
+      <span op-70>&nbsp;&nbsp;&copy;&nbsp;&nbsp;{{ currentTime.getFullYear() }}&nbsp;&nbsp;{{ siteConfig.author }}.</span>
     </div>
     <div>
       <SysStatus />
