@@ -68,3 +68,34 @@ and then :
 ```
 
 save your time.
+
+##### I wont be accounting the practice round.
+
+## Round 1
+- started at 22:30 on 5th Oct 24.
+
+### Problem A
+- read A
+- got to implement quickly
+- all that was needed was (i + 1) / b[i] and (i + 1) / a[i]
+- AC!
+
+### Problem B
+- read B
+- sieve
+- precompute upto _1e7 + k_
+- implemented O(n ^ 2) solution
+- passed sample cases
+- tle on validation input
+- optimized using pre sums
+
+### Problem C
+- read C
+- probability and expectation ?
+- <span style="color:red">tourist</span>'s mint template
+- check _l == 0_
+- _w - g_
+- exp = e(x) = e(x<sub>1</sub>) * (w - g)
+- e(x<sub>1</sub>) = 0 ... 1 ... .... (2 * L + 2)
+- e(x) = 2 * L + 2 - 1 = 2 * l + 1
+- ans = (w - g) * (2L + 1)
