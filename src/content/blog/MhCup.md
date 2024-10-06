@@ -2,7 +2,7 @@
 title: Meta Hacker Cup 2024
 description: My experiences
 date: 2024-10-05
-tag: Meta Hacker Cup, C++, MacOS
+tag: C++, MacOS
 duration: 7 min
 ---
 
