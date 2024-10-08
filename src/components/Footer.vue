@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { onMounted, onUnmounted, ref } from 'vue'
+import { onUnmounted, ref } from 'vue'
 import SysStatus from './SysStatus.vue'
 import siteConfig from '@/site-config'
 import { getLinkTarget } from '@/utils/link'

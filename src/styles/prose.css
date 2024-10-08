@@ -40,13 +40,13 @@ html.dark .prose a {
   content: counter(list-item, var(--list-counter-style, decimal)) '.';
   position: absolute;
   font-weight: 400;
-  color: #fcfdfe;
+  color: gray;
   left: 0;
 }
 .prose ul > li::before {
   content: '';
   position: absolute;
-  background-color: #e9eef6;
+  background-color: gray;
   border-radius: 50%;
   width: 0.375em;
   height: 0.375em;
