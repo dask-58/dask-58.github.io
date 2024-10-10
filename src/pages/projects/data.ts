@@ -5,6 +5,12 @@ export const projectData: ProjectData = [
     title: '2024',
     projects: [
       {
+        text: 'Scientist.whack',
+        description: 'go and whack the mad Scientist',
+        icon: 'i-simple-icons-javascript',
+        href: 'https://dask-58.github.io/scientist.whack',
+      },
+      {
         text: 'duckOdu',
         description: 'A very basic Todo app in Swift for MacOs',
         icon: 'i-simple-icons-swift',
