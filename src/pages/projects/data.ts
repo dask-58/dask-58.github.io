@@ -51,6 +51,12 @@ export const projectData: ProjectData = [
         icon: 'i-simple-icons-javascript',
         href: 'https://dask-58.github.io/spendelonmoney',
       },
+      {
+        text: 'Drifter Color Scheme',
+        description: 'My first ever project. A theme for vscode. Failed successfully.',
+        icon: '',
+        href: 'https://marketplace.visualstudio.com/items?itemName=dhruvkoli.drifter',
+      },
     ],
   },
   {
