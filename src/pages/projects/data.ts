@@ -29,10 +29,10 @@ export const projectData: ProjectData = [
         href: 'https://dask-58.github.io/hermione',
       },
       {
-        text: 'Erudite (currently disabled)',
-        description: 'will be back (ERUDITE 2.0 soon ... ).',
+        text: 'Erudite20',
+        description: 'minimalist google gemini-api web app',
         icon: 'i-simple-icons-react',
-        href: 'https://dask-58.github.io/erudite',
+        href: 'https://erudite-20.vercel.app',
       },
       {
         text: '[ . ] Files',
