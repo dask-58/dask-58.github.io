@@ -18,7 +18,7 @@
 Clone the project
 
 ```bash
-  git clone https://dask-58/dask-58.github.io
+  git clone https://github.com/dask-58/dask-58.github.io.git
 ```
 
 Go to the project directory
