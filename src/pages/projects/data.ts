@@ -5,6 +5,12 @@ export const projectData: ProjectData = [
     title: '2024',
     projects: [
       {
+        text: '15.puzzle',
+        description: 'classic puzzle game',
+        icon: 'i-simple-icons-cplusplus',
+        href: 'https://github.com/dask-58/15.puzzle',
+      },
+      {
         text: 'Scientist.whack',
         description: 'go and whack the mad Scientist',
         icon: 'i-simple-icons-javascript',
@@ -22,12 +28,12 @@ export const projectData: ProjectData = [
         icon: 'i-simple-icons-rust',
         href: 'https://github.com/dask-58/dashrs',
       },
-      {
-        text: 'Hermione (In progress)',
-        description: 'cant reveal now',
-        icon: 'i-simple-icons-javascript',
-        href: 'https://dask-58.github.io/hermione',
-      },
+      // {
+      //   text: 'Hermione (In progress)',
+      //   description: 'cant reveal now',
+      //   icon: 'i-simple-icons-javascript',
+      //   href: 'https://dask-58.github.io/hermione',
+      // },
       {
         text: 'Erudite20',
         description: 'minimalist google gemini-api web app',
