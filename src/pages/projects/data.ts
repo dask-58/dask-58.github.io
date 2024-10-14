@@ -60,7 +60,7 @@ export const projectData: ProjectData = [
       {
         text: 'Drifter Color Scheme',
         description: 'My first ever project. A theme for vscode. Failed successfully.',
-        icon: '',
+        icon: 'i-simple-icons-json',
         href: 'https://marketplace.visualstudio.com/items?itemName=dhruvkoli.drifter',
       },
     ],

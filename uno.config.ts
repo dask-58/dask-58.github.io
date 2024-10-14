@@ -58,6 +58,7 @@ export default defineConfig({
     'i-simple-icons-x',
     'i-simple-icons-linkedin',
     'i-simple-icons-instagram',
+    'i-simple-icons-json',
     'i-simple-icons-cplusplus',
     'i-simple-icons-rust',
     'i-simple-icons-github',
