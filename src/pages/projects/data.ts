@@ -98,6 +98,12 @@ export const projectData: ProjectData = [
         icon: 'i-simple-icons-hackerrank',
         href: 'https://www.hackerrank.com/profile/googldhruv',
       },
+      {
+        text: 'MonkeyType',
+        description: '',
+        icon: 'i-simple-icons-monkeytype',
+        href: 'https://monkeytype.com/profile/dask58',
+      },
     ],
   },
 ]

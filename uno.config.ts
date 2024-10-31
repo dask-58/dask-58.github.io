@@ -64,6 +64,7 @@ export default defineConfig({
     'i-simple-icons-github',
     'i-ri-github-line',
     'i-ri-twitter-x-line',
+    'i-simple-icons-monkeytype',
     'i-simple-icons-codeforces',
     'i-simple-icons-codechef',
     'i-simple-icons-leetcode',
