@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/peng.png" alt="Logo" width="150">
+  <img src="public/leo.jpg" alt="Logo" width="150">
 </p>
 
 <h1 align="center">dask-58.github.io</h1>
