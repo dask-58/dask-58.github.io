@@ -5,14 +5,5 @@ export default {
 </script>
 
 <template>
-  <iframe
-    style="border-radius:12px"
-    src="https://open.spotify.com/embed/playlist/1tVlreDaeWkDU1dwsvKZUS?utm_source=generator"
-    width="100%"
-    height="352"
-    frameborder="0"
-    allowfullscreen=""
-    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-    loading="lazy"
-  />
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/pWO718iy5mY?si=58B_XJ62wERyx_C-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen />
 </template>
