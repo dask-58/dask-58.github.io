@@ -41,7 +41,7 @@ export default defineConfig({
     presetWebFonts({
       fonts: {
         sans: 'Inter:400,600,800',
-        mono: 'Mono:400,600',
+        mono: 'JetBrains Mono:400,600,800',
         grotesk: 'Space Grotesk:400,600,800',
         poppins: 'Poppins:400,600,800',
       },
