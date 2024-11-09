@@ -2,7 +2,7 @@
 title: Pzza and dogos
 description: a very random day
 date: 2024-09-27
-tag: food, adventure, dogs, pizza
+tag: adventure, dogs, pizza
 ---
 
 ### An unexpected day

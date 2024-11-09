@@ -2,7 +2,7 @@
 title: ☠️ RIP AppleScript
 description: Why I like it and dont like it
 date: 2024-11-09
-tag: AppleScript, AppleIntelligence, RIP, ☠️
+tag: Appleintelligence
 duration: 5 min
 ---
 
