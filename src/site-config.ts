@@ -1,3 +1,5 @@
+import { hasRestParameter } from 'typescript'
+
 export const siteConfig = {
   author: 'Dhruv',
   title: 'Dhruv Koli',
@@ -45,6 +47,10 @@ export const siteConfig = {
       {
         text: 'Work',
         href: '/projects',
+      },
+      {
+        text: 'Pics',
+        href: '/photos',
       },
     ],
   },
