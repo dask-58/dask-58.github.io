@@ -44,6 +44,7 @@ export default defineConfig({
         mono: 'JetBrains Mono:400,600,800',
         grotesk: 'Space Grotesk:400,600,800',
         poppins: 'Poppins:400,600,800',
+        hanuman: 'Hanuman:400, 700',
       },
     }),
   ],
