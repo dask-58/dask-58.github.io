@@ -53,6 +53,7 @@ export default defineConfig({
     'i-simple-icons-lua',
     'i-simple-icons-swift',
     'i-carbon-rss',
+    'i-simple-icons-mastodon',
     'i-simple-icons-javascript',
     'i-simple-icons-github',
     'i-simple-icons-x',

@@ -29,6 +29,11 @@ export const siteConfig = {
       icon: 'i-simple-icons-linkedin',
     },
     {
+      text: 'Mastodon',
+      href: 'https://mastodon.social/@dask58',
+      icon: 'i-simple-icons-mastodon',
+    },
+    {
       text: 'Instagram',
       href: 'https://instagram.com/dask_58',
       icon: 'i-simple-icons-instagram',
