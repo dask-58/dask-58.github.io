@@ -12,19 +12,19 @@ import {
 export default defineConfig({
   shortcuts: [
     {
-      'bg-main': 'bg-hex-f0f4fc dark:bg-hex-0b0e12',
-      'text-main': 'text-hex-333333 dark:text-hex-d4d4d4',
-      'text-link': 'text-hex-0b0e12 dark:text-hex-f0f4fc',
-      'border-main': 'border-truegray-300 dark:border-truegray-700',
+      'bg-main': 'bg-hex-f4f6fa dark:bg-hex-10141a',
+      'text-main': 'text-hex-444444 dark:text-hex-c0c0c0',
+      'text-link': 'text-hex-10141a dark:text-hex-f4f6fa',
+      'border-main': 'border-gray-200 dark:border-gray-600',
     },
     {
       'text-title': 'text-link text-4xl font-800',
-      'nav-link': 'text-link opacity-80 hover:opacity-100 transition-opacity duration-200 cursor-pointer',
-      'prose-link': 'text-link text-nowrap cursor-pointer border-b-1 !border-opacity-30 hover:!border-opacity-100 border-neutral-600 hover:border-truegray-600 dark:border-neutral-600 hover:dark:border-truegray-600 transition-border-color duration-200 decoration-none',
-      'container-link': 'p-2 opacity-70 hover:opacity-100 cursor-pointer hover:bg-truegray-800 !bg-opacity-20 transition-colors transition-opacity duration-200',
+      'nav-link': 'text-link opacity-85 hover:opacity-100 transition-opacity duration-200 cursor-pointer',
+      'prose-link': 'text-link text-nowrap cursor-pointer border-b-1 !border-opacity-25 hover:!border-opacity-100 border-gray-500 hover:border-gray-500 dark:border-gray-500 hover:dark:border-gray-500 transition-border-color duration-200 decoration-none',
+      'container-link': 'p-2 opacity-75 hover:opacity-100 cursor-pointer hover:bg-gray-800 !bg-opacity-15 transition-colors transition-opacity duration-200',
     },
     {
-      'hr-line': 'w-14 mx-auto my-8 border-solid border-1px !border-truegray-600 !dark:border-truegray-300',
+      'hr-line': 'w-14 mx-auto my-8 border-solid border-1px !border-gray-500 !dark:border-gray-400',
     },
   ],
   presets: [
