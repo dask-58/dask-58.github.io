@@ -75,6 +75,7 @@ html.dark .prose a {
 .prose h1 {
   font-weight: 900;
   font-size: 2.5em;
+  /* font-family: 'rocksalt', cursive; */
   margin: 0 0 0.8888889em;
   line-height: 1.1111111;
 }
@@ -130,7 +131,7 @@ html.dark .prose a {
   font-weight: 400;
   color: inherit;
   font-size: inherit;
-  font-family: 'hanuman';
+  font-family: 'mono', monospace;
   line-height: inherit;
 }
 .prose table {

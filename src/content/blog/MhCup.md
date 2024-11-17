@@ -27,7 +27,7 @@ Directory/
 - Navigate to the directory.
 paste the following code as given exactly (atleast the 4th line) in **_run.sh_**
 
-``` bash
+```bash
 #!/bin/bash
 
 echo "Compiling Sol.cpp ..."
@@ -46,7 +46,7 @@ echo "Running Sol ..."
 if [ $? -eq 0 ]; then
     echo "Run done!"
     echo "Output:"
-    cat output.txt
+    bat output.txt
 else
     echo "Execution failed!"
     exit 1

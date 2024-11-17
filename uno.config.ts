@@ -45,6 +45,7 @@ export default defineConfig({
         grotesk: 'Space Grotesk:400,600,800',
         poppins: 'Poppins:400,600,800',
         hanuman: 'Hanuman:400, 700',
+        rocksalt: 'Rock Salt:400',
       },
     }),
   ],
