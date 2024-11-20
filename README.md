@@ -4,8 +4,6 @@
   <img src="public/leo.jpg" alt="Logo" width="150">
 </p>
 
-<h1 align="center">dask-58.github.io</h1>
-
 <p align="center">
   <a href="https://choosealicense.com/licenses/mit/">
     <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License">
