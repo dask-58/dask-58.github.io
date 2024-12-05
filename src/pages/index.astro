@@ -15,47 +15,58 @@ import SpotifyPlaylist from '../components/Spotify.vue'
       <span style="color: {{dark ? 'white' : 'black'}};">D</span>
       <span style="color: red;">hruv Koli 👾</span>
     </h1>
-    <p>Competitive Programmer && CS sophomore at IIIT, Dharwad</p>
-    <p>🐐messi fan.</p>
-    <SpotifyPlaylist />
-    <h2 class="mt-8 text-xl font-semibold">Achievements</h2>
-    <ul class="list-disc pl-5 mt-4">
-      <li>Ranked 1481 in Meta Hacker Cup 2024 Round 1</li>
-    </ul>
-    <p>Check my posts here ➡️ <a href="/blog">All posts.</a></p>
-    <p>and projects here ➡️ <a href="/projects">All projects.</a></p>
-
     <p>
-      This is my 🏡 residence on the web. If you like this, please consider
-      following/ connecting with me on my Socials.
+      I am a CS Sophomore at IIIT Dharwad, India.
+      <br />
     </p>
-
-    <hr class="hr-line" />
-    <p>Find me on</p>
-    <p class="flex gap-x-4 gap-y-2 flex-wrap">
-      {
-        siteConfig.socialLinks.map((link) => (
-          <a
-            aria-label={link.text}
-            href={link.href}
-            target="_blank"
-            class="prose-link"
-          >
-            <i class:list={[link.icon]} />
-            {link.text}
-          </a>
-        ))
-      }
-    </p>
-    <p>
-      or mail me at
-      <a
-        prose-link
-        aria-label={siteConfig.email}
-        href={`mailto:${siteConfig.email}`}
-      >
-        {siteConfig.email}
-      </a>.
-    </p>
+    I love participating in both algorithmic and heuristic contest and sometimes
+    share my experiences here or mostly on X. Used to play football and support Barça
+    and Messi.
   </article>
+  <SpotifyPlaylist />
+  <h2 class="mt-8 text-xl font-semibold">Achievements</h2>
+  <ul class="list-disc pl-5 mt-4">
+    <li>Ranked 1481 in Meta Hacker Cup 2024 Round 1</li>
+  </ul>
+  <p>Check my posts here ➡️ <a href="/blog">All posts.</a></p>
+  <p>and projects here ➡️ <a href="/projects">All projects.</a></p>
+  <p>
+    I don't really know much about how websites work; precisely how they are
+    deployed. This website is deployed under GitHub Pages and I worry about the
+    lifespan of this page. Not about how long it lives but about how long it can
+    manage the growing size. As a result I may end up scraping all this
+    framework and other bs, merging everything into a basic HTML Site.
+  </p>
+  <p>
+    This is my 🏡 residence on the web. If you like this, please consider
+    following/ connecting with me on my Socials.
+  </p>
+
+  <hr class="hr-line" />
+  <p>Find me on</p>
+  <p class="flex gap-x-4 gap-y-2 flex-wrap">
+    {
+      siteConfig.socialLinks.map((link) => (
+        <a
+          aria-label={link.text}
+          href={link.href}
+          target="_blank"
+          class="prose-link"
+        >
+          <i class:list={[link.icon]} />
+          {link.text}
+        </a>
+      ))
+    }
+  </p>
+  <p>
+    or mail me at
+    <a
+      prose-link
+      aria-label={siteConfig.email}
+      href={`mailto:${siteConfig.email}`}
+    >
+      {siteConfig.email}
+    </a>.
+  </p>
 </BaseLayout>
