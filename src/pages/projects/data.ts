@@ -87,6 +87,18 @@ export const projectData: ProjectData = [
         href: 'https://leetcode.com/u/eruditesurgery/',
       },
       {
+        text: 'TopCoder',
+        description: '',
+        icon: 'i-simple-icons-topcoder',
+        href: 'https://profiles.topcoder.com/dask_58',
+      },
+      {
+        text: 'CodinGame',
+        description: '',
+        icon: 'i-simple-icons-codingame',
+        href: 'https://www.codingame.com/profile/7e7674666320a5933c4b44229e666cc85986046',
+      },
+      {
         text: 'Kaggle',
         description: 'my kaggle profile',
         icon: 'i-simple-icons-kaggle',

@@ -27,6 +27,11 @@ export const siteConfig = {
       icon: 'i-simple-icons-linkedin',
     },
     {
+      text: 'BlueSky',
+      href: 'https://bsky.app/profile/dask58.bsky.social',
+      icon: 'i-simple-icons-bluesky',
+    },
+    {
       text: 'Mastodon',
       href: 'https://mastodon.social/@dask58',
       icon: 'i-simple-icons-mastodon',
