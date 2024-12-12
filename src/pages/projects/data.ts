@@ -70,7 +70,7 @@ export const projectData: ProjectData = [
     projects: [
       {
         text: 'CodeForces',
-        description: 'Max Specialist (1443)',
+        description: 'Max Specialist (1447)',
         icon: 'i-simple-icons-codeforces',
         href: 'https://codeforces.com/profile/dask_58',
       },
@@ -78,7 +78,7 @@ export const projectData: ProjectData = [
         text: 'CodeChef',
         description: 'Max 3 ★ (1721)',
         icon: 'i-simple-icons-codechef',
-        href: 'https://www.codechef.com/users/dask_58',
+        href: 'https://www.codechef.com/users/dask0_0',
       },
       {
         text: 'LeetCode',
