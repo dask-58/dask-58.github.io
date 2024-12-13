@@ -82,7 +82,7 @@ export const projectData: ProjectData = [
       },
       {
         text: 'LeetCode',
-        description: 'Top 6.08% (1845)',
+        description: 'Knight (1855)',
         icon: 'i-simple-icons-leetcode',
         href: 'https://leetcode.com/u/eruditesurgery/',
       },
