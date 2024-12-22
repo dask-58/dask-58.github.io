@@ -72,7 +72,7 @@ export const projectData: ProjectData = [
         text: 'CodeForces',
         description: 'Max Specialist (1447)',
         icon: 'i-simple-icons-codeforces',
-        href: 'https://codeforces.com/profile/dask_58',
+        href: 'https://codeforces.com/profile/eruditeO_o',
       },
       {
         text: 'CodeChef',
