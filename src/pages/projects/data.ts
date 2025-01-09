@@ -76,7 +76,7 @@ export const projectData: ProjectData = [
       },
       {
         text: 'CodeChef',
-        description: 'Max 3 ★ (1721)',
+        description: 'Max 3 ★ (1795)',
         icon: 'i-simple-icons-codechef',
         href: 'https://www.codechef.com/users/dask0_0',
       },
