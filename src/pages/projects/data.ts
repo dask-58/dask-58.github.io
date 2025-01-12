@@ -70,7 +70,7 @@ export const projectData: ProjectData = [
     projects: [
       {
         text: 'CodeForces',
-        description: 'Max Specialist (1447)',
+        description: 'Max Specialist (1449)',
         icon: 'i-simple-icons-codeforces',
         href: 'https://codeforces.com/profile/eruditeO_o',
       },
