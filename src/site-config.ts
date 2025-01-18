@@ -56,10 +56,6 @@ export const siteConfig = {
         text: 'Work',
         href: '/projects',
       },
-      {
-        text: 'Pics',
-        href: '/photos',
-      },
     ],
   },
   page: {
