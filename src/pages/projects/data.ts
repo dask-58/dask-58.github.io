@@ -28,12 +28,6 @@ export const projectData: ProjectData = [
         icon: 'i-simple-icons-rust',
         href: 'https://github.com/dask-58/dashrs',
       },
-      // {
-      //   text: 'Hermione (In progress)',
-      //   description: 'cant reveal now',
-      //   icon: 'i-simple-icons-javascript',
-      //   href: 'https://dask-58.github.io/hermione',
-      // },
       {
         text: 'Erudite20',
         description: 'minimalist google gemini-api web app',
