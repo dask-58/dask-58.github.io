@@ -1,57 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dhruv Koli</title>
-    <style>
-        body {
-            font-family: 'Courier New', Courier, monospace;
-            margin: 40px;
-            line-height: 1.6;
-            max-width: 600px;
-        }
-        h1 {
-            margin-bottom: 20px;
-        }
-        .social-links {
-            margin-top: 20px;
-        }
-        .social-links a {
-            color: #0066cc;
-            text-decoration: none;
-            margin-right: 15px;
-        }
-        .social-links a:hover {
-            text-decoration: underline;
-        }
-        .signature {
-            margin-top: 20px;
-            font-family: cursive;
-            font-style: italic;
-        }
-        hr {
-            margin: 20px 0;
-            border: none;
-            border-top: 1px solid #ccc;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhruv Koli</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>dask-58.github.io</h1>
-    <p>This site has been retired. I have been working on a new and better website.</p>
-    <p>Stay Tuned!</p>
-    
-    <hr>
-    
-    <div class="social-links">
-        <a href="https://github.com/dask-58">github</a>
-        <a href="https://twitter.com/dask_58">x</a>
-        <a href="https://linkedin.com/in/dhruvkoli">linkedin</a>
-    </div>
 
-    <div class="signature">
-        <h3>- Dhruv</h3>
+  <nav id="navbar">
+    <h2 class="name"><a href="/">dhruv koli</a></h2>
+    <div class="nav-links">
+      <a href="#">todo</a>
+      <a href="#">todo</a>
+      <a href="#">todo</a>
     </div>
+    <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+  </nav>
+
+  <main>
+    <section class="intro">
+      <h1>hey</h1>
+      <p class="bio">
+        i'm a 19 year old cs sophomore @ iiit dwd from India. I am also known online 
+        by the names <b>dask_58</b> and <b>erudite</b> mainly through my social media and
+        algorithmic competition participations.
+        <br>
+        I regularly participate in algorithmic and heuristic competitions, 
+        on platforms like Codeforces, CodeChef, and LeetCode.
+        <br>
+        One of my best performances was in the <b>Meta Hacker Cup 2024 R1</b>
+        where i was ranked <b>1481st</b> globally.
+      </p>
+    </section>
+
+    <section class="projects">
+      <h3 class="section-title">key projects</h3>
+      <ul class="project-list">
+        <li><a href="#">project1</a></li>
+        <li><a href="#">project2</a></li>
+        <li><a href="#">view all...</a></li>
+      </ul>
+    </section>
+    
+    <section class="blogs">
+      <h3 class="section-title">blogs</h3>
+      <ul class="project-list">
+        <li><a href="#">blog1</a></li>
+        <li><a href="#">blog2</a></li>
+        <li><a href="#">view all...</a></li>
+      </ul>
+    </section>
+
+    <section class="online">
+      <h3 class="section-title">online presence</h3>
+      <ul class="social-links">
+        <li><a href="https://github.com/dask-58">github</a></li>
+        <li><a href="https://twitter.com/dask_58">x</a></li>
+        <li><a href="https://linkedin.com/in/dhruvkoli">linkedin</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <span>dhruv koli</span>
+      <span id="time"></span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
