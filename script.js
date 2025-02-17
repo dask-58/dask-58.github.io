@@ -1,3 +1,18 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const text = "dhruv koli";
+  const span = document.getElementById("typewriter");
+  let i = 0;
+  span.innerText = "";
+  function typeEffect() {
+    if (i < text.length) {
+      span.innerText += text[i];
+      i++;
+      setTimeout(typeEffect, 50);
+    }
+  }
+  typeEffect();
+});
+
 function updateTime() {
   const now = new Date();
   const timeString = now.toLocaleTimeString("en-US", {
