@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blogs | Dhruv Koli</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav id="navbar">
+    <h2 class="name">
+      <a href="/"><span>dhruv koli</span></a>
+    </h2>
+    <div class="nav-links">
+      <a href="projects.html">work</a>
+      <a href="blogs.html" class="active">blogs</a>
+      <a href="#">todo</a>
+    </div>
+    <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+  </nav>
+  <main>
+    <section class="blogs-container">
+      <h1>blogs</h1>
+      <div class="blogs-grid" id="blogsGrid">
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <span>dhruv koli</span>
+      <span id="time"></span>
+    </div>
+  </footer>
+  <script src="content/blogs/data.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
