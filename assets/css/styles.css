@@ -20,11 +20,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Geist Mono", monospace;
+    font-family: "Satoshi", sans-serif;
+    font-weight: 500;
     font-optical-sizing: auto;
     transition:
         background-color 0.3s,
         color 0.3s;
+}
+
+b {
+    font-weight: 700;
 }
 
 body {
