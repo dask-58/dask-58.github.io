@@ -1,17 +1,24 @@
 const blogs = [
   {
-    title: "Blog Post 1",
-    description: "lorem ipsum dolor sit amet",
-    date: "2024-02-20",
+    title: "Why this website",
+    description: "reason why i will settle with this website",
+    date: "2025-02-24",
     url: "#",
-    tags: ["Programming", "Web Development"]
+    tags: ["web dev"]
   },
   {
-    title: "Blog Post 2",
-    description: "lorem ipsum dolor sit amet",
-    date: "2024-02-15",
-    url: "#",
-    tags: ["Algorithms", "Competitive Programming"]
+    title: "The people I admire",
+    description: "Some people I admire",
+    date: "2024-05-11",
+    url: "https://dask58.blogspot.com/2024/05/the-people-i-admire.html",
+    tags: ["admiration"]
+  },
+  {
+    title: "How it started",
+    description: "backstory",
+    date: "2024-04-23",
+    url: "https://dask58.blogspot.com/2024/04/how-it-started.html",
+    tags: ["writing", "blogging"]
   },
 ];
 
@@ -22,18 +29,18 @@ function displayBlogs() {
   blogs.forEach(blog => {
     const blogCard = document.createElement('div');
     blogCard.className = 'blog-card';
-    
+
     blogCard.innerHTML = `
       <h3><a href="${blog.url}">${blog.title}</a></h3>
       <div class="blog-meta">
         <span class="date">${new Date(blog.date).toLocaleDateString()}</span>
         <div class="tags">
-          ${blog.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+          ${blog.tags.filter(tag => tag).map(tag => `<span class="tag">${tag}</span>`).join('')}
         </div>
       </div>
-      <p>${blog.excerpt}</p>
+      <p>${blog.description}</p>
     `;
-    
+
     blogsGrid.appendChild(blogCard);
   });
 }
@@ -45,7 +52,7 @@ function displayLatestBlogs(count = 2) {
   if (!blogList) return;
 
   const latestBlogs = blogs.slice(0, count);
-  
+
   blogList.innerHTML = latestBlogs
     .map(blog => `<li><a href="${blog.url}">${blog.title}</a></li>`)
     .join('') + '<li><a href="blogs.html">view all...</a></li>';
