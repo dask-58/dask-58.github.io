@@ -5,6 +5,7 @@
     --accent-color: #0066cc;
     --nav-bg: rgba(255, 255, 255, 0.8);
     --border-color: #eeeeee;
+    --grid-color: rgba(0, 0, 0, 0.05);
 }
 
 .dark-mode {
@@ -14,6 +15,7 @@
     --accent-color: #4dabf7;
     --nav-bg: rgba(26, 26, 26, 0.8);
     --border-color: #333333;
+    --grid-color: rgba(255, 255, 255, 0.05);
 }
 
 * {
@@ -34,6 +36,10 @@ b {
 
 body {
     background-color: var(--bg-color);
+    background-image: 
+        linear-gradient(90deg, var(--grid-color) 1px, transparent 1px),
+        linear-gradient(var(--grid-color) 1px, transparent 1px);
+    background-size: 20px 20px;
     color: var(--text-color);
     max-width: 680px;
     margin: 0 auto;
