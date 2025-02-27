@@ -1,7 +1,7 @@
 const blogs = [
   {
     title: "Why this website",
-    description: "reason why i will settle with this website",
+    description: "reason why? i will settle with this website",
     date: "2025-02-24",
     url: "#",
     tags: ["web dev"]
