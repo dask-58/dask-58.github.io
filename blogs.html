@@ -10,17 +10,23 @@
   <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav id="navbar">
-    <h2 class="name">
-      <a href="/"><span>dhruv koli</span></a>
-    </h2>
-    <div class="nav-links">
-      <a href="projects.html">work</a>
-      <a href="blogs.html" class="active">blogs</a>
-      <a href="#">todo</a>
-    </div>
-    <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
-  </nav>
+    <nav id="navbar">
+      <h2 class="name">
+        <a href="/"><span id="typewriter">dhruv koli</span></a>
+      </h2>
+      <button class="hamburger" aria-label="Toggle navigation">
+          <span class="bar top"></span>
+          <span class="bar middle"></span>
+          <span class="bar bottom"></span>
+      </button>
+      <div class="nav-links">
+        <a href="index.html">home</a>
+        <a href="projects.html">work</a>
+        <!-- <a href="blogs.html">blogs</a> -->
+        <a href="#">resume</a>
+        <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+      </div>
+    </nav>
   <main>
     <section class="blogs-container">
       <h1>blogs</h1>
