@@ -174,6 +174,52 @@ footer {
   font-size: 0.9rem;
 }
 
+
+.hamburger {
+  display: none;
+  position: relative;
+  z-index: 1100;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: var(--primary-color);
+  border-radius: 2px;
+  transition: all 0.4s ease;
+}
+
+.hamburger .top {
+  top: 7px;
+}
+
+.hamburger .middle {
+  top: 14px;
+}
+
+.hamburger .bottom {
+  top: 21px;
+}
+
+.hamburger.active .top {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.hamburger.active .middle {
+  opacity: 0;
+}
+
+.hamburger.active .bottom {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
 @media (max-width: 600px) {
   body {
     padding: 1.5rem 1rem 6rem;
@@ -205,6 +251,37 @@ footer {
   .blogs-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+  .hamburger {
+    display: block;
+  }
+  
+  .nav-links {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-color);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transition: opacity 0.4s ease;
+    opacity: 0;
+    z-index: 1000;
+  }
+  
+  .nav-links.active {
+    display: flex;
+    opacity: 1;
+  }
+  
+  .nav-links a {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    text-decoration: none;
   }
 }
 
@@ -292,90 +369,4 @@ footer {
   gap: 1rem;
   color: var(--secondary-color);
   font-size: 0.9rem;
-}
-
-/* Hamburger button styling */
-.hamburger {
-  display: none; /* hidden on desktop */
-  position: relative;
-  z-index: 1100; /* ensures it stays on top */
-  width: 30px;
-  height: 30px;
-  border: none;
-  background: transparent;
-  cursor: pointer;
-}
-
-/* Hamburger bars */
-.hamburger .bar {
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 3px;
-  background-color: var(--primary-color);
-  border-radius: 2px;
-  transition: all 0.4s ease;
-}
-
-/* Positioning each bar */
-.hamburger .top {
-  top: 7px;
-}
-
-.hamburger .middle {
-  top: 14px;
-}
-
-.hamburger .bottom {
-  top: 21px;
-}
-
-/* Transform bars when active to form an "X" */
-.hamburger.active .top {
-  transform: translateY(7px) rotate(45deg);
-}
-
-.hamburger.active .middle {
-  opacity: 0;
-}
-
-.hamburger.active .bottom {
-  transform: translateY(-7px) rotate(-45deg);
-}
-
-/* Mobile navigation overlay */
-@media (max-width: 600px) {
-  .hamburger {
-    display: block;
-  }
-  
-  /* Initially hide nav-links */
-  .nav-links {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: var(--bg-color);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    transition: opacity 0.4s ease;
-    opacity: 0;
-    z-index: 1000;
-  }
-  
-  /* Show nav-links when active */
-  .nav-links.active {
-    display: flex;
-    opacity: 1;
-  }
-  
-  .nav-links a {
-    font-size: 1.5rem;
-    color: var(--primary-color);
-    text-decoration: none;
-  }
 }
