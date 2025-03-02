@@ -7,13 +7,6 @@ const blogs = [
     tags: ["web dev"]
   },
   {
-    title: "The people I admire",
-    description: "Some people I admire",
-    date: "2024-05-11",
-    url: "https://dask58.blogspot.com/2024/05/the-people-i-admire.html",
-    tags: ["admiration"]
-  },
-  {
     title: "How it started",
     description: "backstory",
     date: "2024-04-23",
