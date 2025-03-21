@@ -4,7 +4,7 @@
   --secondary-color: #666666;
   --primary-color: #0066cc;
   --accent-color: #0066cc;
-  --nav-bg: rgba(255, 255, 255, 0.8);
+  --nav-bg: #EDEDEF;
   --border-color: #eeeeee;
   --grid-color: rgba(0, 0, 0, 0.05);
 }
@@ -15,7 +15,7 @@
   --secondary-color: #cccccc;
   --primary-color: #4dabf7;
   --accent-color: #4dabf7;
-  --nav-bg: rgba(26, 26, 26, 0.8);
+  --nav-bg: #050505;
   --border-color: #333333;
   --grid-color: rgba(255, 255, 255, 0.05);
 }
