@@ -56,13 +56,16 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.75rem 0.25rem;
+  padding: 0.75rem 1rem;
   position: sticky;
+  border: 0.5px solid var(--text-color);
   top: 0;
   z-index: 1000;
-  backdrop-filter: blur(2px);
-  background-color: var(--nav-bg);
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 20px;
 }
 
 .scrolled {
