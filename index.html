@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Moved</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f0f2f5;
+      font-family: Arial, sans-serif;
+      color: #333;
+      text-align: center;
+      padding: 1rem;
+    }
+    .container {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 400px;
+      width: 100%;
+    }
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      margin-bottom: 1.5rem;
+      font-size: 1rem;
+    }
+    .counter {
+      font-weight: bold;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      color: #fff;
+      background: #007bff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>My Portfolio Has Moved!</h1>
+    <p>You will be redirected to the new site shortly:</p>
+    <p class="counter" id="counter">10</p>
+    <a href="https://dub.sh/dhruvkoli" class="btn" id="redirectBtn">Go Now</a>
+  </div>
+
+  <script>
+    (function() {
+      var countdown = 10;
+      var counterEl = document.getElementById('counter');
+      var redirectURL = 'https://dub.sh/dhruvkoli';
+      var interval = setInterval(function() {
+        countdown--;
+        if (countdown <= 0) {
+          clearInterval(interval);
+          window.location.href = redirectURL;
+        } else {
+          counterEl.textContent = countdown;
+        }
+      }, 1000);
+
+      document.getElementById('redirectBtn').addEventListener('click', function(e) {
+        e.preventDefault();
+        window.location.href = redirectURL;
+      });
+    })();
+  </script>
+</body>
+</html>
